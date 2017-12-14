@@ -1,0 +1,5 @@
+sensor 1:
+  - platform: mqtt
+    name: "temp"
+    state_topic: "office/sensor1"
+    value_template: '{{ double(value_json.temp ) }}'
