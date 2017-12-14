@@ -1,0 +1,5 @@
+- name: ParentsRoom50
+    entities:
+      cover.parents_r_roller_36:
+        data:
+        position: 0
