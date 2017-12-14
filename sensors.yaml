@@ -1,9 +1,7 @@
-tempRead:
-  - platform: mqtt
-    name: "temp"
-    state_topic: "office/sensor1"
-    value_template: '{{ double(value_json.temp ) }}'
+- platform: mqtt
+  name: "temp"
+  state_topic: "office/sensor1"
+  value_template: '{{ double(value_json.temp ) }}'
 
-# Weather prediction
-weatherPrediction:
-  - platform: yr
+
+- platform: yr
