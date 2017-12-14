@@ -84,4 +84,3 @@ sensor:
     name: "temp"
     state_topic: "office/sensor1"
     value_template: '{{ double(value_json.temp ) }}'
-  - platform: yr
