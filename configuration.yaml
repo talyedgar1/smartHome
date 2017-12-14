@@ -76,15 +76,11 @@ mqtt:
   username: ha-instance
   password: 6383078
 
-sensor 1:
-  - platform: mqtt
-    name: "temp"
-    state_topic: "office/sensor1"
-    value_template: '{{ double(value_json.temp ) }}'
 
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+sensor: !include sensors.yaml
 
 
 
