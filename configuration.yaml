@@ -76,10 +76,12 @@ mqtt:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
-sensor: !include sensors.yaml
+# sensor: !include sensors.yaml
 # scene: !include scenes.yaml
 
-
-
-
-
+sensor:
+  - platform: mqtt
+    name: "temp"
+    state_topic: "office/sensor1"
+    value_template: '{{ double(value_json.temp ) }}'
+  - platform: yr
