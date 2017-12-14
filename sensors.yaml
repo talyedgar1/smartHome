@@ -1,7 +1,7 @@
+
 - platform: mqtt
   name: "temp"
   state_topic: "office/sensor1"
-  value_template: '{{ double(value_json.temp ) }}'
-
+  value_template: '{{ float(value_json.temp ) }}'
 
 - platform: yr
