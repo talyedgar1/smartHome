@@ -1,6 +1,41 @@
+# cover.kids_l_roller_49
+# cover.kids_r_roller_48
+# cover.living_room_l_roller__10
+# cover.living_room_m_roller_7
+# cover.living_room_r_roller_16
+# cover.living_room_b_roller_15
+# cover.parents_l_roller_50
+# cover.parents_r_roller_36
+# cover.kitchen_left_roller_5
+# cover.kitchen_right_roller_6
+
 - name: ParentsRoom50
   entities:
     cover.parents_r_roller_36:
       position: 50
     cover.parents_l_roller_50:
-      position: 50  
+      position: 50 
+
+- name: kitchenAndBig50
+  entities:
+    cover.kitchen_left_roller_5:
+      position: 50
+    cover.kitchen_right_roller_6:
+      position: 50
+    cover.living_room_b_roller_15:
+      position: 50
+
+- name: firstFloor50
+  entities:
+    cover.kitchen_left_roller_5:
+      position: 50
+    cover.kitchen_right_roller_6:
+      position: 50
+    cover.living_room_b_roller_15:
+      position: 50
+    cover.living_room_l_roller__10:
+      position: 50
+    cover.living_room_m_roller_7:
+      position: 50
+    cover.living_room_r_roller_16:
+      position: 50
