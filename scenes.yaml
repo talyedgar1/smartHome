@@ -39,3 +39,18 @@
       position: 50
     cover.living_room_r_roller_16:
       position: 50
+
+- name: lockFirstFloor
+  entities:
+    cover.kitchen_left_roller_5:
+      position: 0
+    cover.kitchen_right_roller_6:
+      position: 0
+    cover.living_room_b_roller_15:
+      position: 0
+    cover.living_room_l_roller__10:
+      position: 0
+    cover.living_room_m_roller_7:
+      position: 0
+    cover.living_room_r_roller_16:
+      position: 0
