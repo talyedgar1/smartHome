@@ -1,0 +1,6 @@
+temp:
+    name: Computer Room Temprature Graph
+    entities:
+      - temp
+    hours_to_show: 240
+    refresh: 60
