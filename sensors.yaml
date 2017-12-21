@@ -2,7 +2,7 @@
 - platform: mqtt
   name: "temp"
   state_topic: "office/sensor1"
-  unit_of_measurement: '°C'
+  unit_of_measurement: 'd'
   value_template: '{{ float(value_json.temp ) }}'
 
 - platform: yr
