@@ -1,4 +1,4 @@
-temp1:
+gr1:
   name: Computer Room Temprature Graph
   entities:
     - sensor.temp
