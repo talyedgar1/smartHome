@@ -1,6 +1,6 @@
-gr1:
+temp1:
   name: Computer Room Temprature Graph
   entities:
-    - temp
+    - sensor.temp
   hours_to_show: 240
   refresh: 60

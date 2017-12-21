@@ -78,10 +78,4 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 sensor: !include sensors.yaml
 scene: !include scenes.yaml
-history_graph: 
-  gr1:
-    name: Computer Room Temprature Graph
-    entities:
-      - temp
-    hours_to_show: 240
-    refresh: 60
+history_graph: !include graphs.yaml
