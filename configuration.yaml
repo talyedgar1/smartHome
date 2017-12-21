@@ -78,3 +78,4 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 sensor: !include sensors.yaml
 scene: !include scenes.yaml
+history_graph: !include graphs.yaml
