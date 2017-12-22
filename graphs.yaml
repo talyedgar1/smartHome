@@ -1,5 +1,5 @@
 gr1:
-  name: Computer Room Temprature Graph
+  name: Computer Room Temprature Graph1
   entities:
     - sensor.temp
-  hours_to_show: 120
+  hours_to_show: 24
