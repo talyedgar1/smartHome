@@ -73,6 +73,9 @@ mqtt:
   port: 15615
   username: ha-instance
   password: 6383078
+  
+device_tracker:
+  - platform: owntracks
 
 
 group: !include groups.yaml
