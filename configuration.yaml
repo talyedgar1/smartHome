@@ -62,6 +62,8 @@ tts:
 
 vera:
   vera_controller_url: http://10.100.102.200:3480/
+  
+prometheus:
 
 #recorder:
 #  db_url: mysql://root:6383078@10.100.102.5/ha
