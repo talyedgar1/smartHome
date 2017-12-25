@@ -1,5 +1,6 @@
 
 - platform: mqtt
+  friendly_name: "Outside Temperature"
   name: "outside_temp"
   state_topic: "outside_temp"
   unit_of_measurement: '°C'
