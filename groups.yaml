@@ -3,18 +3,14 @@ default_view:
     view: yes
     icon: mdi:home 
     entities:
-      - group.sensors
+      - sensor.yr_symbol
+      - sensor.flood_sensor_temperature_31
+      - sensor.outside_temp
       - group.kitchen
       - group.livingRoom
       - group.parents
       - group.kids
       - group.graphs
-sensors:
-  name: Sensors
-  entities:
-      - sensor.yr_symbol
-      - sensor.flood_sensor_temperature_31
-      - sensor.outside_temp
 kitchen:
     name: Kitchen
     entities:
