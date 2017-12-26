@@ -1,6 +1,11 @@
-livingRoomStatus:
-  name: Living Room Status
-  options:
-   - Light
-   - Dark
-  initial: Dark
+#livingRoomStatus:
+#  name: Living Room Status
+#  options:
+#   - Light
+#   - Dark
+#  initial: Dark
+living_room_preset:
+    options:
+      - Visitors
+      - Visitors with kids
+      - Home Alone
