@@ -18,7 +18,7 @@ default_view:
 statuses:
   name: Statuses
   entities:
-      - input_select.living_room_preset
+      - input_select.livingRoomStatus
 firstFloorScenes:
   name: First Floor Scenes
   entities:
