@@ -1,0 +1,6 @@
+livingRoomStatus:
+  name: Living Room AtTUA
+  options:
+   - Light
+   - Dark
+  initial: Dark

@@ -7,6 +7,7 @@ default_view:
       - sensor.flood_sensor_temperature_31
       - sensor.outside_temp
       - device_tracker.tal_6b6f0b8cc7ea4ab893cdbf9ffd477322
+      - group.statuses
       - group.firstFloorScenes
       - group.SecondFloorScenes
       - group.kitchen
@@ -14,6 +15,10 @@ default_view:
       - group.parents
       - group.kids
       - group.graphs
+statuses:
+  name: Statuses
+  entities:
+      - input_select.livingRoomStatus
 firstFloorScenes:
   name: First Floor Scenes
   entities:
