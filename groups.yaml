@@ -6,7 +6,7 @@ default_view:
       - sensor.yr_symbol
       - sensor.flood_sensor_temperature_31
       - sensor.outside_temp
-      - device_tracker.tals-ios
+      - device_tracker.tal
       - group.kitchen
       - group.livingRoom
       - group.parents
