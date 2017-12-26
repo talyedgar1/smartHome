@@ -1,0 +1,10 @@
+group:
+  default_view:
+    view: yes
+    icon: mdi:home 
+    entities:
+      - group.kitchen
+  kitchen:
+    name: Kitchen
+    entities:
+      - cover.kitchen_left_roller_5
