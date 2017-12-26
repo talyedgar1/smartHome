@@ -6,7 +6,7 @@ default_view:
       - sensor.yr_symbol
       - sensor.flood_sensor_temperature_31
       - sensor.outside_temp
-      - device_tracker.tal
+      - device_tracker.tals-ios
       - group.kitchen
       - group.livingRoom
       - group.parents
@@ -38,4 +38,3 @@ graphs:
     name: Graphs
     entities:
       - history_graph.computer_room_temprature_graph1
-      - remote.apple_tv
