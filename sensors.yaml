@@ -1,7 +1,9 @@
 
 - platform: mqtt
-  name: "temp"
-  state_topic: "office/sensor1"
+  friendly_name: "Outside Temperature"
+  name: "outside_temp"
+  state_topic: "outside_temp"
+  unit_of_measurement: '°C'
   value_template: '{{ float(value_json.temp ) }}'
 
 - platform: yr

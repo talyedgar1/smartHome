@@ -1,0 +1,23 @@
+
+default_view:
+    view: yes
+    icon: mdi:home 
+    entities:
+      - group.kitchen
+      - group.livingRoom
+      - group.livingRoom
+      - group.livingRoom
+      - group.livingRoom
+kitchen:
+    name: Kitchen
+    entities:
+      - sensor.yr_symbol
+      - cover.kitchen_left_roller_5
+      - cover.kitchen_right_roller_6
+livingRoom:
+    name: Living Room
+    entities:
+      - cover.living_room_b_roller_15
+      - cover.living_room_l_roller__10
+      - cover.living_room_m_roller_7
+      - cover.living_room_r_roller_16
