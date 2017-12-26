@@ -3,10 +3,12 @@ default_view:
     view: yes
     icon: mdi:home 
     entities:
+      - group.sensors
       - group.kitchen
       - group.livingRoom
       - group.parents
       - group.kids
+      - group.graphs
 sensors:
   name: Sensors
   entities:
@@ -35,3 +37,7 @@ kids:
     entities:
       - cover.kids_l_roller_49
       - cover.kids_r_roller_48
+graphs:
+    name: Graphs
+    entities:
+      history_graph.computer_room_temprature_graph1
