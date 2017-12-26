@@ -37,4 +37,5 @@ kids:
 graphs:
     name: Graphs
     entities:
-      history_graph.computer_room_temprature_graph1
+      - history_graph.computer_room_temprature_graph1
+      - remote.apple_tv
