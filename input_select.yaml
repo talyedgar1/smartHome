@@ -1,5 +1,5 @@
 livingRoomStatus:
-  name: Living Room AtTUA
+  name: Living Room Status
   options:
    - Light
    - Dark
