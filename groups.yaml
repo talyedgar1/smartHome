@@ -12,6 +12,17 @@ default_view:
       - group.parents
       - group.kids
       - group.graphs
+firstFloorScenes:
+  name: First Floor Scenes
+  entities:
+      - scene.kitchenandbig50
+      - scene.firstfloor50
+      - scene.lockfirstfloor
+      - scene.all_lights_off
+SecondFloorScenes:
+  name: Second Floor Scenes
+  entities:
+      - scene.parentsroom50
 kitchen:
     name: Kitchen
     entities:
