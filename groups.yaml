@@ -3,10 +3,12 @@ default_view:
     view: yes
     icon: mdi:home 
     entities:
+      - group.firstFloor
+      - group.parents
+      - group.kids
+firstFloor:
+    entities:
       - group.kitchen
-      - group.livingRoom
-      - group.livingRoom
-      - group.livingRoom
       - group.livingRoom
 kitchen:
     name: Kitchen
@@ -21,3 +23,13 @@ livingRoom:
       - cover.living_room_l_roller__10
       - cover.living_room_m_roller_7
       - cover.living_room_r_roller_16
+parents:
+    name: Parents Room
+    entities:
+      - cover.parents_r_roller_36
+      - cover.parents_l_roller_50
+kids:
+    name: kids Room
+    entities:
+      - cover.kids_l_roller_49
+      - cover.kids_r_roller_48
