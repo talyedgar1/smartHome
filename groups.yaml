@@ -6,7 +6,7 @@ default_view:
       - sensor.yr_symbol
       - sensor.flood_sensor_temperature_31
       - sensor.outside_temp
-      - device_tracker.talsios_p
+      - device_tracker.tal_phone_p
       - group.statuses
       - group.firstFloorScenes
       - group.SecondFloorScenes
