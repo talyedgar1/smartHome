@@ -6,7 +6,7 @@ default_view:
       - sensor.yr_symbol
       - sensor.flood_sensor_temperature_31
       - sensor.outside_temp
-      - device_tracker.talsios_6b6f0b8cc7ea4ab893cdbf9ffd477322
+      - device_tracker.talsiosp
       - group.statuses
       - group.firstFloorScenes
       - group.SecondFloorScenes
