@@ -1,9 +1,9 @@
 livingRoomStatus:
-  name: Living Room Status
+  # name: Living Room Status
   options:
     - Light
     - Dark
-  initial: Dark
+  # initial: Dark
 # living_room_preset:
 #     options:
 #       - Visitors
