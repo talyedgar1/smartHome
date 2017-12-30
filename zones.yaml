@@ -2,7 +2,7 @@
   latitude: 32.252417
   longitude: 34.920265
   radius: 100
-  icon: mdi:mailbox
+  icon: mdi:home-variant
 
 - name: Errands
   latitude: 32.276199031143
