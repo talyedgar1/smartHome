@@ -9,6 +9,17 @@
 # cover.kitchen_left_roller_5
 # cover.kitchen_right_roller_6
 
+- name: SecondFloor50
+  entities:
+    cover.parents_r_roller_36:
+      position: 50
+    cover.parents_l_roller_50:
+      position: 50
+    cover.kids_l_roller_49:
+      position: 50
+    cover.kids_r_roller_48:
+      position: 50
+      
 - name: ParentsRoom50
   entities:
     cover.parents_r_roller_36:
