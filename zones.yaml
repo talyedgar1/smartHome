@@ -1,8 +1,8 @@
-- name: home
+- name: Home
   latitude: 32.252417
   longitude: 34.920265
   radius: 100
-  icon: mdi:home-variant
+  icon: mdi:mailbox
 
 - name: Errands
   latitude: 32.276199031143
