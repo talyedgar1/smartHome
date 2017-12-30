@@ -7,7 +7,7 @@ default_view:
       - sensor.flood_sensor_temperature_31
       - sensor.outside_temp
       - device_tracker.tal_phone_p
-      - group.locations
+      # - group.locations
       - group.statuses
       - group.firstFloorScenes
       - group.SecondFloorScenes
@@ -16,10 +16,10 @@ default_view:
       - group.parents
       - group.kids
       - group.graphs
-locations:
-  name: Locations
-  entities:
-      - device_tracker.tal_phone_p
+# locations:
+#   name: Locations
+#   entities:
+#       - device_tracker.tal_phone_p
 statuses:
   name: Statuses
   entities:
