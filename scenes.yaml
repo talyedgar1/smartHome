@@ -10,6 +10,7 @@
 # cover.kitchen_right_roller_6
 
 - name: SecondFloor50
+  icon: mdi:cart
   entities:
     cover.parents_r_roller_36:
       position: 50
@@ -19,7 +20,7 @@
       position: 50
     cover.kids_r_roller_48:
       position: 50
-      
+
 - name: ParentsRoom50
   entities:
     cover.parents_r_roller_36:

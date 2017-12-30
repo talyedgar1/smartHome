@@ -35,6 +35,7 @@ SecondFloorScenes:
   name: Second Floor Scenes
   entities:
       - scene.parentsroom50
+      - scene.secondfloor50
 kitchen:
     name: Kitchen
     entities:
