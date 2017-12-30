@@ -67,14 +67,11 @@ vera:
   
 prometheus:
 
-#recorder:
-#  db_url: mysql://root:6383078@10.100.102.5/ha
-
 mqtt:
   broker: m23.cloudmqtt.com
   port: 15615
   username: ha-instance
-  password: 6383078
+  password: !secret mqtt_pass
   
 device_tracker:
   - platform: owntracks
