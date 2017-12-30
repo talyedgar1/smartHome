@@ -37,6 +37,7 @@ SecondFloorScenes:
       - scene.parentsroom50
       - scene.secondfloor50
 kitchen:
+    icon: mdi:fridge
     name: Kitchen
     entities:
       - cover.kitchen_left_roller_5
