@@ -6,7 +6,7 @@ default_view:
       - sensor.yr_symbol
       - sensor.flood_sensor_temperature_31
       - sensor.outside_temp
-      - device_tracker.tal_phone_p
+      # - device_tracker.tal_phone_p
       # - group.locations
       - group.statuses
       - group.firstFloorScenes
@@ -63,3 +63,8 @@ graphs:
     name: Graphs
     entities:
       - history_graph.computer_room_temprature_graph1
+awesome_people:
+    name: Awesome People
+    view: no
+    entities:
+      - device_tracker.tal_phone_p
