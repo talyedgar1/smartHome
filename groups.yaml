@@ -69,3 +69,4 @@ awesome_people:
     view: no
     entities:
       - device_tracker.tal_phone_p
+      - sensor.phone_to_home
