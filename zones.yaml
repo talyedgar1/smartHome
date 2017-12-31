@@ -27,3 +27,9 @@
   longitude: 34.94698692589
   radius: 300
   icon: mdi:pig
+
+- name: Sailing
+  latitude: 32.168556
+  longitude: 34.765806
+  radius: 5000
+  icon: mdi:ferry
