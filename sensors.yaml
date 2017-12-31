@@ -8,11 +8,11 @@
 
 - platform: yr
 
-sensor:
-  # Tracking entity to entity
-  - platform: google_travel_time
-    name: phone_to_home
-    api_key: AIzaSyC_cxT-E1rFQzWYDnkIKFR_GmzLPuEMgjw
-    origin: device_tracker.tal_phone_p
-    destination: zone.home
+
+# Tracking entity to entity
+- platform: google_travel_time
+  name: phone_to_home
+  api_key: AIzaSyC_cxT-E1rFQzWYDnkIKFR_GmzLPuEMgjw
+  origin: device_tracker.tal_phone_p
+  destination: zone.home
 
