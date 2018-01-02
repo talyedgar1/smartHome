@@ -16,3 +16,7 @@
   origin: device_tracker.tal_phone_p
   destination: zone.home
 
+- platform: mqtt
+    state_topic: dummy/floorplan/sensor
+    name: Floorplan
+
