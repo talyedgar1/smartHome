@@ -17,6 +17,6 @@
   destination: zone.home
 
 - platform: mqtt
-    state_topic: dummy/floorplan/sensor
-    name: Floorplan
+  state_topic: dummy/floorplan/sensor
+  name: Floorplan
 
