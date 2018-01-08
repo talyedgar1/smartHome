@@ -25,6 +25,16 @@ statuses:
   name: Statuses
   entities:
       - input_select.living_room_status
+      
+scenes:
+    view: yes
+    entities:
+      - scene.kitchenandbig50
+      - scene.firstfloor50
+      - scene.lockfirstfloor
+      - scene.all_lights_off
+      - scene.parentsroom50
+      - scene.secondfloor50
 firstFloorScenes:
   name: First Floor Scenes
   entities:
