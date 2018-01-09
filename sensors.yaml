@@ -5,6 +5,13 @@
   state_topic: "outside_temp"
   unit_of_measurement: '°C'
   value_template: '{{ float(value_json.temp ) }}'
+ 
+- platform: mqtt
+  friendly_name: "Dummy"
+  name: "dummy"
+  state_topic: "dummy"
+  unit_of_measurement: '°C'
+  value_template: '{{ float(value_json.temp ) }}'
 
 - platform: yr
 
