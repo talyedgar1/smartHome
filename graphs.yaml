@@ -1,10 +1,10 @@
-computerRoomTemp:
+gr1:
   name: Computer Room Temprature
   entities:
     - sensor.computerRoomTemp
   hours_to_show: 24
 
-computerRoomHumidity:
+gr2:
   name: Computer Room Humidity
   entities:
     - sensor.computerRoomHumidity
