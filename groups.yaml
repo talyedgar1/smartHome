@@ -80,8 +80,8 @@ kids:
 graphsGroup:
     name: Graphs
     entities:
-      - history_graph.computerRoomTemp
-      - history_graph.computerRoomHumidity
+      - history_graph.gr1
+      - history_graph.gr2
 awesome_people:
     name: Awesome People
     view: no
