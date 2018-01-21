@@ -1,5 +1,11 @@
-gr1:
-  name: Computer Room Temprature Graph
+computerRoomTemp:
+  name: Computer Room Temprature
   entities:
-    - sensor.outside_temp
+    - sensor.computerRoomTemp
+  hours_to_show: 24
+
+computerRoomHumidity:
+  name: Computer Room Humidity
+  entities:
+    - sensor.computerRoomHumidity
   hours_to_show: 24

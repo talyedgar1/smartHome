@@ -16,7 +16,6 @@ default_view:
       - group.livingRoom
       - group.parents
       - group.kids
-      - group.graphs
 # locations:
 #   name: Locations
 #   entities:
@@ -25,6 +24,11 @@ statuses:
   name: Statuses
   entities:
       - input_select.living_room_status
+
+graphs:
+  view: yes
+  entities:
+    - group.graphs
       
 scenes:
     view: yes
@@ -74,8 +78,8 @@ kids:
 graphs:
     name: Graphs
     entities:
-      - history_graph.computer_room_temprature_graph1
-      - binary_sensor.floorplan
+      - history_graph.computerRoomTemp
+      - history_graph.computerRoomHumidity
 awesome_people:
     name: Awesome People
     view: no

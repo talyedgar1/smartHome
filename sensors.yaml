@@ -7,15 +7,15 @@
   value_template: '{{ float(value_json.temp ) }}'
  
 - platform: mqtt
-  friendly_name: "Computer Room"
-  name: "computerRoom"
+  friendly_name: "Computer Room Temprature"
+  name: "computerRoomTemp"
   state_topic: "computerRoom"
   unit_of_measurement: '°C'
   value_template: '{{ float(value_json.temp ) }}'
 
 - platform: mqtt
-  friendly_name: "Computer Room"
-  name: "computerRoom"
+  friendly_name: "Computer Room Humidity"
+  name: "computerRoomHumidity"
   state_topic: "computerRoom"
   unit_of_measurement: '%'
   value_template: '{{ float(value_json.humidity ) }}'
