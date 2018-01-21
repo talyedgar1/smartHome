@@ -26,19 +26,21 @@ statuses:
       - input_select.living_room_status
 
 graphs:
+  name: Graphs
   view: yes
   entities:
-    - group.graphs
+    - group.graphsGroup
       
 scenes:
-    view: yes
-    entities:
-      - scene.kitchenandbig50
-      - scene.firstfloor50
-      - scene.lockfirstfloor
-      - scene.all_lights_off
-      - scene.parentsroom50
-      - scene.secondfloor50
+  name: Scenes
+  view: yes
+  entities:
+    - scene.kitchenandbig50
+    - scene.firstfloor50
+    - scene.lockfirstfloor
+    - scene.all_lights_off
+    - scene.parentsroom50
+    - scene.secondfloor50
 #      - media_player.apple_tv
 firstFloorScenes:
   name: First Floor Scenes
@@ -75,7 +77,7 @@ kids:
     entities:
       - cover.kids_l_roller_49
       - cover.kids_r_roller_48
-graphs:
+graphsGroup:
     name: Graphs
     entities:
       - history_graph.computerRoomTemp
