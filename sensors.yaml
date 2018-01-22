@@ -8,14 +8,14 @@
  
 - platform: mqtt
   friendly_name: Computer Room Temprature Sensor
-  name: computerRoomTemp
+  name: Computer_Room_Temp
   state_topic: computerRoom
   unit_of_measurement: '°C'
   value_template: '{{ float(value_json.temp ) }}'
 
 - platform: mqtt
   friendly_name: Computer Room Humidity Sensor
-  name: computerRoomHumidity
+  name: Computer_Room_Humidity
   state_topic: computerRoom
   unit_of_measurement: '%'
   value_template: '{{ float(value_json.humidity ) }}'
