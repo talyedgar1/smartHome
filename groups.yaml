@@ -65,6 +65,7 @@ livingRoom:
       - cover.living_room_l_roller__10
       - cover.living_room_m_roller_7
       - cover.living_room_r_roller_16
+      - light.living_room
 parents:
     name: Parents Room
     entities:
