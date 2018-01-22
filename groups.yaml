@@ -90,15 +90,15 @@ awesome_people:
       - device_tracker.tal_phone_p
       - sensor.phone_to_home
       
-computer_room:
+computerRoomGroup:
     name: Computer Room
     view: no
     entities:
       - sensor.computerRoomTemp
       - sensor.computerRoomHumidity
     
-sensors:
+sensorsGroup:
     name: sensors
     view: yes
     entities:
-      - group.computer_room
+      - group.computerRoomGroup
