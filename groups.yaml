@@ -5,7 +5,8 @@ default_view:
     entities:
       - sensor.yr_symbol
       - sensor.flood_sensor_temperature_31
-      - sensor.outside_temp
+      - sensor.computerRoomTemp
+      - sensor.computerRoomHumidity
       # - device_tracker.tal_phone_p
       # - group.locations
       - group.awesome_people
