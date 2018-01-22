@@ -90,8 +90,8 @@ computerRoomGroup:
     name: Computer Room
     view: no
     entities:
-      - sensor.computerRoomTemp
-      - sensor.computerRoomHumidity
+      - sensor.computer_room_temp
+      - sensor.computer_room_humidity
       - sensor.watching_tv
 sensors:
     name: Sensors
