@@ -5,8 +5,8 @@ default_view:
     entities:
       - sensor.yr_symbol
       - sensor.flood_sensor_temperature_31
-      - sensor.computerRoomTemp
-      - sensor.computerRoomHumidity
+      # - sensor.computerRoomTemp
+      # - sensor.computerRoomHumidity
       # - device_tracker.tal_phone_p
       # - group.locations
       - group.awesome_people
@@ -92,6 +92,7 @@ computerRoomGroup:
     entities:
       - sensor.computerRoomTemp
       - sensor.computerRoomHumidity
+      - sensor.watching_tv
 sensors:
     name: Sensors
     view: yes
