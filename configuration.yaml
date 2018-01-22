@@ -85,6 +85,13 @@ mqtt:
 device_tracker:
   - platform: owntracks
 
+light:
+  - platform: yeelight
+    devices:
+      10.100.102.11:
+        name: Living Room
+        transition: 1000
+
 
 group: !include groups.yaml
 automation: !include automations.yaml
