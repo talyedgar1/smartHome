@@ -42,7 +42,7 @@ scenes:
     - scene.all_lights_off
     - scene.parentsroom50
     - scene.secondfloor50
-#      - media_player.apple_tv
+    - media_player.apple_tv
 firstFloorScenes:
   name: First Floor Scenes
   entities:
