@@ -17,10 +17,7 @@ default_view:
       - group.livingRoom
       - group.parents
       - group.kids
-# locations:
-#   name: Locations
-#   entities:
-#       - device_tracker.tal_phone_p
+
 statuses:
   name: Statuses
   entities:
@@ -42,7 +39,7 @@ scenes:
     - scene.all_lights_off
     - scene.parentsroom50
     - scene.secondfloor50
-    - media_player.apple_tv
+#    - media_player.apple_tv
 firstFloorScenes:
   name: First Floor Scenes
   entities:
@@ -88,17 +85,15 @@ awesome_people:
     view: no
     entities:
       - device_tracker.tal_phone_p
-      - sensor.phone_to_home
-      
+      - sensor.phone_to_home    
 computerRoomGroup:
     name: Computer Room
     view: no
     entities:
       - sensor.computerRoomTemp
       - sensor.computerRoomHumidity
-    
-sensorsGroup:
-    name: sensors
+sensors:
+    name: Sensors
     view: yes
     entities:
       - group.computerRoomGroup
