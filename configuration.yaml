@@ -27,6 +27,8 @@ frontend:
 # Enables configuration UI
 config:
 
+hassio:
+
 http:
   api_password: !secret http_password
   cors_allowed_origins:
