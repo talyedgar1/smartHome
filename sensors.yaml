@@ -39,8 +39,8 @@
 
 - platform: template
   sensors:
-    waterCost:
-        friendly_name: "Garden Water Cost"
-        value_template: "{{ states('sensor.watching_tv')|float }}"
+    water_cost:
+      friendly_name: "Garden Water Cost"
+      value_template: "{{ states('sensor.watching_tv')|float }}"
 
 

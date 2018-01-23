@@ -99,7 +99,7 @@ gardenSensorsGroup:
     name: Garden Sensors
     view: no
     entities:
-      - sensor.garden_water_cost
+      - sensor.water_cost
       
 sensors:
     name: Sensors
