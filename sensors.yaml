@@ -45,5 +45,6 @@
             {% set litters = 20 %}
             {% set costPerLitter = 5  %}
             {{ states('sensor.watching_tv')|float *litters *costPerLitter }}
+        entity_picture_template: mdi:currency-usd
 
 
