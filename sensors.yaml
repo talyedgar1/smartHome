@@ -41,9 +41,7 @@
   sensors:
     waterCost:
         friendly_name: "Garden Water Cost"
-        value_template: >- 
-            {% set litters = 20 %}
-            {% set costPerLitter = 5  %}
-            {{ states.sensor.watching_tv.state|float *litters *costPerLitter }}
+        value_template: >-   
+            {{ states.sensor.watching_tv.state|float *5 *5 }}
 
 
