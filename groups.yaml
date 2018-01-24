@@ -93,12 +93,14 @@ computerRoomGroup:
     entities:
       - sensor.computer_room_temp
       - sensor.computer_room_humidity
-      - sensor.watching_tv
+      - sensor.computer_battery_status
+      
 
 gardenSensorsGroup:
     name: Garden Sensors
     view: no
     entities:
+      - sensor.watching_tv
       - sensor.water_cost
       
 sensors:
