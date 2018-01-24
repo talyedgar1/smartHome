@@ -93,7 +93,7 @@ computerRoomGroup:
     entities:
       - sensor.computer_room_temp
       - sensor.computer_room_humidity
-      - sensor.computer_battery_status
+      - sensor.computer_room_battery_status
       
 
 gardenSensorsGroup:
