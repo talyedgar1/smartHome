@@ -26,9 +26,15 @@ scenes:
   name: Scenes
   view: yes
   entities:
-    - scene.lock_house
+    - group.generalScenes
     - group.firstFloorScenes
     - group.SecondFloorScenes
+
+generalScenes:
+  name: General
+  entities:
+    - scene.all_lights_off
+    - scene.lock_house
 
 firstFloorScenes:
   name: First Floor Scenes
@@ -36,7 +42,6 @@ firstFloorScenes:
     - scene.kitchen_and_big_50
     - scene.first_floor_50
     - scene.lock_first_floor
-    - scene.all_lights_off
 
 SecondFloorScenes:
   name: Second Floor Scenes
