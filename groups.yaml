@@ -5,14 +5,8 @@ default_view:
     entities:
       - sensor.yr_symbol
       - sensor.flood_sensor_temperature_31
-      # - sensor.computerRoomTemp
-      # - sensor.computerRoomHumidity
-      # - device_tracker.tal_phone_p
-      # - group.locations
       - group.awesome_people
-      - group.statuses
-      - group.firstFloorScenes
-      - group.SecondFloorScenes
+      # - group.statuses
       - group.kitchen
       - group.livingRoom
       - group.parents

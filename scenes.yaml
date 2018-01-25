@@ -9,7 +9,7 @@
 # cover.kitchen_left_roller_5
 # cover.kitchen_right_roller_6
 
-- name: SecondFloor50
+- name: Second Floor 50
   entities:
     cover.parents_r_roller_36:
       position: 50
@@ -20,14 +20,14 @@
     cover.kids_r_roller_48:
       position: 50
 
-- name: ParentsRoom50
+- name: Parents Room 50
   entities:
     cover.parents_r_roller_36:
       position: 50
     cover.parents_l_roller_50:
       position: 50 
 
-- name: kitchenAndBig50
+- name: Kitchen And Big 50
   entities:
     cover.kitchen_left_roller_5:
       position: 50
@@ -36,7 +36,7 @@
     cover.living_room_b_roller_15:
       position: 50
 
-- name: firstFloor50
+- name: First Floor 50
   entities:
     cover.kitchen_left_roller_5:
       position: 50
@@ -51,7 +51,7 @@
     cover.living_room_r_roller_16:
       position: 50
 
-- name: lockFirstFloor
+- name: Lock First Floor
   entities:
     cover.kitchen_left_roller_5:
       position: 0
@@ -64,4 +64,27 @@
     cover.living_room_m_roller_7:
       position: 0
     cover.living_room_r_roller_16:
+      position: 0
+
+- name: Lock House
+  entities:
+    cover.kitchen_left_roller_5:
+      position: 0
+    cover.kitchen_right_roller_6:
+      position: 0
+    cover.living_room_b_roller_15:
+      position: 0
+    cover.living_room_l_roller__10:
+      position: 0
+    cover.living_room_m_roller_7:
+      position: 0
+    cover.living_room_r_roller_16:
+      position: 0
+    cover.parents_r_roller_36:
+      position: 0
+    cover.parents_l_roller_50:
+      position: 0
+    cover.kids_l_roller_49:
+      position: 0
+    cover.kids_r_roller_48:
       position: 0
