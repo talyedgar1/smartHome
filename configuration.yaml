@@ -92,6 +92,11 @@ light:
         name: Living Room
         transition: 1000
 
+switch:
+  - platform: broadlink
+    host: 10.100.102.8
+    mac: '34:ea:34:42:aa:3b'
+
 
 group: !include groups.yaml
 automation: !include automations.yaml
