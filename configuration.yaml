@@ -96,6 +96,7 @@ switch:
   - platform: broadlink
     host: 10.100.102.8
     mac: '34:ea:34:42:aa:3b'
+    type: rm_mini
 
 
 group: !include groups.yaml
