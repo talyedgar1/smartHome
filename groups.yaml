@@ -95,8 +95,14 @@ computerRoomGroup:
     view: no
     entities:
       - sensor.computer_room_temp
-      - sensor.computer_room_humidity
-      - sensor.computer_room_battery_status      
+      - sensor.computer_room_humidity  
+
+parentsRoomGroup:
+    name: Parents Room
+    view: no
+    entities:
+      - sensor.computer_room_temp
+      - sensor.computer_room_humidity        
 
 gardenSensorsGroup:
     name: Garden Sensors
@@ -110,4 +116,6 @@ sensors:
     view: yes
     entities:
       - group.computerRoomGroup
+      - group.parentsRoomGroup
       - group.gardenSensorsGroup
+      
