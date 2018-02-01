@@ -101,8 +101,8 @@ parentsRoomGroup:
     name: Parents Room
     view: no
     entities:
-      - sensor.computer_room_temp
-      - sensor.computer_room_humidity        
+      - sensor.parents_room_temp
+      - sensor.parents_room_humidity        
 
 gardenSensorsGroup:
     name: Garden Sensors
