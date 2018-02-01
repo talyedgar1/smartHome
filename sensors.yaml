@@ -19,10 +19,16 @@
   value_template: '{{ float(value_json.humidity ) }}'
   
 - platform: mqtt
-  name: Computer Room Battery Status
-  state_topic: computerRoom
-  unit_of_measurement: 'v'
-  value_template: '{{ float(value_json.voltage ) }}'
+  name: Parents Room Temp
+  state_topic: parentsRoom
+  unit_of_measurement: '°C'
+  value_template: '{{ float(value_json.temp ) }}'
+
+- platform: mqtt
+  name: Parents Room Humidity
+  state_topic: parentsRoom
+  unit_of_measurement: '%'
+  value_template: '{{ float(value_json.humidity ) }}'
 
 - platform: yr
 
