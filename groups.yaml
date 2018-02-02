@@ -91,11 +91,11 @@ awesome_people:
       - sensor.phone_to_home    
 
 computerRoomGroup:
-    name: Computer Room
+    name: Kids Room
     view: no
     entities:
-      - sensor.computer_room_temp
-      - sensor.computer_room_humidity  
+      - sensor.kids_room_temp
+      - sensor.kids_room_humidity  
 
 parentsRoomGroup:
     name: Parents Room
