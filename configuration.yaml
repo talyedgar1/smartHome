@@ -48,7 +48,7 @@ updater:
   # include_used_components: true
 
 # Discover some devices automatically
-discovery:
+#discovery:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
@@ -77,10 +77,8 @@ vera:
 prometheus:
 
 mqtt:
-  broker: m23.cloudmqtt.com
-  port: 15615
-  username: ha-instance
-  password: !secret mqtt_pass
+  broker: 10.100.102.100
+  port: 1883
   
 device_tracker:
   - platform: owntracks
