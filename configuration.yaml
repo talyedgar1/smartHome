@@ -78,7 +78,6 @@ prometheus:
 
 mqtt:
   broker: 10.100.102.100
-  port: 1883
   
 device_tracker:
   - platform: owntracks
