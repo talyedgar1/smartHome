@@ -1,23 +1,23 @@
 gr1:
-  name: Computer Room Temprature
+  name: Kids Room Temprature
   entities:
     - sensor.kids_room_temp
   hours_to_show: 24
 
 gr2:
-  name: Computer Room Humidity
+  name: Kids Room Humidity
   entities:
     - sensor.kids_room_humidity
   hours_to_show: 24
   
-gr1:
-  name: Computer Room Temprature
+gr3:
+  name: Parents Room Temprature
   entities:
     - sensor.parents_room_temp
   hours_to_show: 24
 
-gr2:
-  name: Computer Room Humidity
+gr4:
+  name: Parents Room Humidity
   entities:
     - sensor.parents_room_humidity
   hours_to_show: 24
