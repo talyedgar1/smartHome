@@ -91,7 +91,7 @@ light:
 
 switch:
   - platform: broadlink
-    host: 10.100.102.8
+    host: 10.100.102.11
     mac: '34:ea:34:42:aa:3b'
     type: rm_mini
 

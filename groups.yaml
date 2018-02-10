@@ -4,7 +4,7 @@ default_view:
     entities:
       - sensor.yr_symbol
       - sensor.flood_sensor_temperature_31
-      - group.awesome_people
+      #- group.awesome_people
       # - group.statuses
       - group.kitchen
       - group.livingRoom
@@ -83,12 +83,12 @@ graphsGroup:
       - history_graph.computer_room_temprature
       - history_graph.computer_room_humidity
 
-awesome_people:
-    name: Awesome People
-    view: no
-    entities:
-      - device_tracker.tal_phone_p
-      - sensor.phone_to_home    
+#awesome_people:
+#    name: Awesome People
+#    view: no
+#    entities:
+#      - device_tracker.tal_phone_p
+#      - sensor.phone_to_home    
 
 computerRoomGroup:
     name: Kids Room
