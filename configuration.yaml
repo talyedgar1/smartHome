@@ -79,15 +79,15 @@ prometheus:
 mqtt:
   broker: 10.100.102.100
   
-device_tracker:
-  - platform: owntracks
+#device_tracker:
+#  - platform: owntracks
 
-light:
-  - platform: yeelight
-    devices:
-      10.100.102.11:
-        name: Living Room
-        transition: 1000
+#light:
+#  - platform: yeelight
+#    devices:
+#      10.100.102.11:
+#        name: Living Room
+#        transition: 1000
 
 switch:
   - platform: broadlink
