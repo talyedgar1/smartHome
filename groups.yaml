@@ -10,6 +10,12 @@ default_view:
       - group.livingRoom
       - group.parents
       - group.kids
+      - group.air_con
+
+air_con:
+    name: Air Condition
+    entities:
+      - switch.parents_air_condition   
 
 statuses:
   name: Statuses
