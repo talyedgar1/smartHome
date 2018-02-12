@@ -15,7 +15,8 @@ default_view:
 air_con:
     name: Air Condition
     entities:
-      - switch.parents_air_condition   
+      - switch.parents_air_condition 
+      - switch.kids_air_condition
 
 statuses:
   name: Statuses
