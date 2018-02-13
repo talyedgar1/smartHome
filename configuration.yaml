@@ -69,7 +69,7 @@ sun:
 #tts:
 #  - platform: google
 
-cloud:
+# cloud:
 
 vera:
   vera_controller_url: http://10.100.102.200:3480/
