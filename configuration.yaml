@@ -31,13 +31,13 @@ hassio:
 
 http:
   api_password: !secret http_password
-  base_url: https://yedgar.duckdns.org:8123
+ #base_url: https://yedgar.duckdns.org:8123
  # cors_allowed_origins:
  #   - http://10.100.102.7
  #   - http://10.100.102.6
  #   - http://10.100.102.8
-  ssl_certificate: /ssl/fullchain.pem
-  ssl_key: /ssl/privkey.pem
+#ssl_certificate: /ssl/fullchain.pem
+#ssl_key: /ssl/privkey.pem
 
 # Checks for available updates
 # Note: This component will send some information about your system to
