@@ -10,6 +10,7 @@ default_view:
       - group.livingRoom
       - group.parents
       - group.kids
+      - group.first_air_con
       - group.air_con
 
 air_con:
@@ -17,6 +18,11 @@ air_con:
     entities:
       - switch.parents_air_condition 
       - switch.kids_air_condition
+
+first_air_con:
+    name: First Floor Air Condition
+    entities:
+      - switch.living_room_air_condition 
 
 statuses:
   name: Statuses
