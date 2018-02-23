@@ -118,7 +118,7 @@ switch:
         friendly_name: "Living Room Air Condition"
         command_on: 'JgC4AGaBQD9AQCEfQR8fISEfIR8hPyAfIR8hH0EfHiEiHyAfIR8hHx8hHyAhHyEfIR8iHyAfIR8gICEfID9CH2CCQj9APyEfQR8hHiIeIR8fQSEfHyEfIUEeIh8fICIfIB8iHyAgICAgHiIfIR8fICEfICAfISEgID5AIGSBQD9BPyAfQCAiHyAfHyAgQCEfHyEfIUEfHyAgICAgIh8eIR8hHyEfIR8gIh8gHyIfHyAiHyEeH0BBH4MADQU=='
         command_off: 'JgC4AGaBQD9AQCEfQR8fISEfIR8hPyAfIR8hH0EfHiEiHyAfIR8hHx8hHyAhHyEfIR8iHyAfIR8gICEfID9CH2CCQj9APyEfQR8hHiIeIR8fQSEfHyEfIUEeIh8fICIfIB8iHyAgICAgHiIfIR8fICEfICAfISEgID5AIGSBQD9BPyAfQCAiHyAfHyAgQCEfHyEfIUEfHyAgICAgIh8eIR8hHyEfIR8gIh8gHyIfHyAiHyEeH0BBH4MADQU=='
-- platform: broadlink
+  - platform: broadlink
     host: 10.100.102.13
     mac: '34:ea:34:42:bb:86'
     type: rm_mini
