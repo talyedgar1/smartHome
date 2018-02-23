@@ -23,6 +23,7 @@ first_air_con:
     name: First Floor Air Condition
     entities:
       - switch.living_room_air_condition 
+      - switch.play_room_air_condition 
 
 statuses:
   name: Statuses
