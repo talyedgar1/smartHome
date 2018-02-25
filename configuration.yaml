@@ -136,3 +136,4 @@ scene: !include scenes.yaml
 history_graph: !include graphs.yaml
 input_select: !include input_select.yaml
 zone: !include zones.yaml
+customize: !include customize.yaml
