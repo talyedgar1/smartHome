@@ -14,7 +14,8 @@ homeassistant:
   #customize:
   #  binary_sensor.floorplan:
   #    custom_ui_state_card: state-card-floorplan
-  #    config: !include floorplan.yaml 
+  #    config: !include floorplan.yaml
+  customize: !include customize.yaml
 
 # Show links to resources in log and frontend
 #introduction:
@@ -136,4 +137,3 @@ scene: !include scenes.yaml
 history_graph: !include graphs.yaml
 input_select: !include input_select.yaml
 zone: !include zones.yaml
-customize: !include customize.yaml
