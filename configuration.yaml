@@ -25,7 +25,7 @@ homeassistant:
   #  - /local/custom_ui/state-card-floorplan.html
 
 # Enables configuration UI
-#config:
+config:
 
 hassio:
 
