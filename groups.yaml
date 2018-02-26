@@ -49,6 +49,7 @@ generalScenes:
   entities:
     - scene.all_lights_off
     - scene.lock_house
+    - scene.shut_basement
 
 firstFloorScenes:
   name: First Floor Scenes
