@@ -31,7 +31,7 @@ config:
 hassio:
 
 homekit:
-    pincode: !secret pin_code
+  pincode: '123-45-678'
 
 http:
   api_password: !secret http_password
