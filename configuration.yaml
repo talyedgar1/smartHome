@@ -31,7 +31,7 @@ config:
 hassio:
 
 homekit:
-    pincode: '!secret pin_code'
+    pincode: !secret pin_code
 
 http:
   api_password: !secret http_password
