@@ -88,3 +88,10 @@
       position: 0
     cover.kids_r_roller_48:
       position: 0
+      
+- name: Shut Basement
+  entities:
+    switch.basement_ceiling_light_56:
+      service: switch.turn_off
+    switch.basement_wall_lights_57:
+      service: switch.turn_off
