@@ -16,6 +16,7 @@ homeassistant:
   #    custom_ui_state_card: state-card-floorplan
   #    config: !include floorplan.yaml
   customize: !include customize.yaml
+  homekit:
 
 # Show links to resources in log and frontend
 #introduction:
@@ -29,8 +30,6 @@ homeassistant:
 config:
 
 hassio:
-
-homekit:
 
 http:
   api_password: !secret http_password
