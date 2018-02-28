@@ -16,7 +16,8 @@ homeassistant:
   #    custom_ui_state_card: state-card-floorplan
   #    config: !include floorplan.yaml
   customize: !include customize.yaml
-  homekit:
+
+homekit:
 
 # Show links to resources in log and frontend
 #introduction:
