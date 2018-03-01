@@ -133,7 +133,7 @@ switch:
 
 recorder:
   purge_keep_days: 60
-  db_url: mysql://root:!secret mysql_pass@10.100.102.100/ha?charset=utf8
+  db_url: mysql://ha:Ty12345!@10.100.102.100/ha?charset=utf8
         
 group: !include groups.yaml
 automation: !include automations.yaml
