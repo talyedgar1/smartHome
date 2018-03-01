@@ -17,7 +17,7 @@ homeassistant:
   #    config: !include floorplan.yaml
   customize: !include customize.yaml
 
-homekit:
+
 
 # Show links to resources in log and frontend
 #introduction:
@@ -31,6 +31,8 @@ homekit:
 config:
 
 hassio:
+
+homekit:
 
 http:
   api_password: !secret http_password
