@@ -19,7 +19,7 @@ homeassistant:
 
 homekit:
   pincode: '123-45-678'
-  
+  port: 8123
 # Show links to resources in log and frontend
 #introduction:
 
