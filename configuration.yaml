@@ -18,8 +18,7 @@ homeassistant:
   customize: !include customize.yaml
 
 homekit:
-  pincode: '123-45-678'
-  port: 8124
+  pincode: '876-54-321'
 # Show links to resources in log and frontend
 #introduction:
 
