@@ -123,7 +123,8 @@ gardenSensorsGroup:
     name: Garden Sensors
     view: no
     entities:
-      - sensor.watching_tv
+      - sensor.trees
+      - sensor.bushes
       - sensor.water_cost
       
 sensors:

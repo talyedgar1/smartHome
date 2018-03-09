@@ -41,9 +41,17 @@
 #  destination: zone.home
   
 - platform: history_stats
-  name: Watching TV
-  entity_id: cover.kids_l_roller_49
-  state: 'open'
+  name: bushes
+  entity_id: switch.garden_bushes_43
+  state: 'on'
+  type: time
+  start: '{{ now().replace(day=1).replace(hour=0).replace(minute=0).replace(second=0)}}'
+  end: '{{ now() }}'
+  
+- platform: history_stats
+  name: trees
+  entity_id: switch.garden_trees_42
+  state: 'on'
   type: time
   start: '{{ now().replace(day=1).replace(hour=0).replace(minute=0).replace(second=0)}}'
   end: '{{ now() }}'
@@ -54,9 +62,10 @@
     water_cost:
         friendly_name: "Garden Water Cost"
         value_template: >- 
-            {% set litters = 20 %}
-            {% set costPerLitter = 5  %}
-            {{ states('sensor.watching_tv')|float *litters *costPerLitter }}
-        unit_of_measurement: '$'
+            {% set trees_litters = 16 %}
+            {% set bushes_litters = 21 %}
+            {% set costPerLitter = 0.009  %}
+            {{ (states('sensor.bushes')|float *bushes_litters + states('sensor.trees')|float *trees_litters) *costPerLitter }}
+        unit_of_measurement: '₪'
 
 
