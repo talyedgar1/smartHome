@@ -91,7 +91,5 @@
       
 - name: Shut Basement
   entities:
-    switch.basement_ceiling_light_56:
-      service: switch.turn_off
-    switch.basement_wall_lights_57:
-      service: switch.turn_off
+    switch.basement_ceiling_light_56: off
+    switch.basement_wall_lights_57: off
