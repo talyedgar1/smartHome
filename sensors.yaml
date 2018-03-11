@@ -6,15 +6,15 @@
 #  unit_of_measurement: '°C'
 #  value_template: '{{ float(value_json.temp ) }}'
  
-#- platform: mqtt
-#  name: Kids Room Temp
-#  state_topic: computerRoom
-#  unit_of_measurement: '°C'
-#  value_template: '{{ float(value_json.temp ) }}'
+- platform: mqtt
+  name: Kids Room Temp
+  state_topic: kidsRoom
+  unit_of_measurement: '°C'
+  value_template: '{{ float(value_json.temp ) }}'
 
 #- platform: mqtt
 #  name: Kids Room Humidity
-#  state_topic: computerRoom
+#  state_topic: kidsRoom
 #  unit_of_measurement: '%'
 #  value_template: '{{ float(value_json.humidity ) }}'
   
