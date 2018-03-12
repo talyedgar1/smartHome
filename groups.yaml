@@ -135,12 +135,12 @@ sensors:
       - group.parentsRoomGroup
       - group.gardenSensorsGroup
       
-waterManagment:
-    name: Water Managment
+waterManagement:
+    name: Water Management
     view: yes
     entities:
-      - switch.garden_bushes_43",
-      - switch.garden_trees_42",
+      - switch.garden_bushes_43
+      - switch.garden_trees_42
       - scene.bushes_one_hour
       - scene.trees_one_hour 
       
