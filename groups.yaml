@@ -133,6 +133,7 @@ sensors:
     name: Sensors
     view: yes
     entities:
+      - sensor.garden_humidity
       - group.computerRoomGroup
       - group.parentsRoomGroup
       - group.gardenSensorsGroup
