@@ -24,11 +24,6 @@
   unit_of_measurement: 'Numeric'
   value_template: '{{ float(value_json.humidity ) }}'
   
-- platform: mqtt
-  name: esp1
-  state_topic: esp1
-  unit_of_measurement: ''
-  
 #- platform: mqtt
 #  name: Parents Room Temp
 #  state_topic: parentsRoom
@@ -79,4 +74,10 @@
             {{ (states('sensor.bushes')|float *bushes_litters + states('sensor.trees')|float *trees_litters) *costPerLitter }}
         unit_of_measurement: '₪'
 
-
+- platform: filter
+    name: "Realistic Humidity"
+    entity_id: sensor.garden_humidity
+    filters:
+      - filter: lowpass
+        time_constant: 10
+        precision: 2
