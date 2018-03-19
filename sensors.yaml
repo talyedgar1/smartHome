@@ -75,7 +75,7 @@
         unit_of_measurement: '₪'
 
 - platform: filter
-    name: Realistic Humidity
+    name: realistic humidity
     entity_id: sensor.garden_humidity
     filters:
       - filter: lowpass
