@@ -1,23 +1,23 @@
 gr1:
-  name: Kids Room Temprature
+  name: Garden Humidity Graph
   entities:
-    - sensor.kids_room_temp
-  hours_to_show: 24
+    - sensor.realistic_humidity
+  hours_to_show: 48
 
-gr2:
-  name: Kids Room Humidity
-  entities:
-    - sensor.kids_room_humidity
-  hours_to_show: 24
+# gr2:
+#   name: Kids Room Humidity
+#   entities:
+#     - sensor.kids_room_humidity
+#   hours_to_show: 24
   
-gr3:
-  name: Parents Room Temprature
-  entities:
-    - sensor.parents_room_temp
-  hours_to_show: 24
+# gr3:
+#   name: Parents Room Temprature
+#   entities:
+#     - sensor.parents_room_temp
+#   hours_to_show: 24
 
-gr4:
-  name: Parents Room Humidity
-  entities:
-    - sensor.parents_room_humidity
-  hours_to_show: 24
+# gr4:
+#   name: Parents Room Humidity
+#   entities:
+#     - sensor.parents_room_humidity
+#   hours_to_show: 24
