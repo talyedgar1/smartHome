@@ -97,8 +97,7 @@ kids:
 graphsGroup:
     name: Graphs
     entities:
-      - history_graph.computer_room_temprature
-      - history_graph.computer_room_humidity
+      - history_graph.garden_humidity_graph
 
 #awesome_people:
 #    name: Awesome People
