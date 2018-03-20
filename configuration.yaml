@@ -90,6 +90,12 @@ mqtt:
 #device_tracker:
 #  - platform: owntracks
 
+device_tracker:
+  - platform: icloud
+    username: !secret icloud_user
+    password: !secret icloud_pass
+    account_name: tal
+
 #light:
 #  - platform: yeelight
 #    devices:
