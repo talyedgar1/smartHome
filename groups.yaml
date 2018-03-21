@@ -6,7 +6,7 @@ default_view:
       - sensor.flood_sensor_temperature_31
       - remote.apple_tv_4
       - media_player.apple_tv_4
-      #- group.awesome_people
+      - group.awesome_people
       # - group.statuses
       - group.kitchen
       - group.livingRoom
@@ -99,12 +99,12 @@ graphsGroup:
     entities:
       - history_graph.garden_humidity_graph
 
-#awesome_people:
-#    name: Awesome People
-#    view: no
-#    entities:
-#      - device_tracker.tal_phone_p
-#      - sensor.phone_to_home    
+awesome_people:
+    name: Awesome People
+    view: no
+    entities:
+      - device_tracker.iphonetal
+      - device_tracker.talsmacbookpro  
 
 computerRoomGroup:
     name: Kids Room
