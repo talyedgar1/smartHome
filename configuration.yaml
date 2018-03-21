@@ -95,6 +95,10 @@ device_tracker:
     username: !secret icloud_user
     password: !secret icloud_pass
     account_name: tal
+  - platform: icloud
+    username: !secret icloud_user_ortal
+    password: !secret icloud_pass_ortal
+    account_name: ortal
 
 #light:
 #  - platform: yeelight
