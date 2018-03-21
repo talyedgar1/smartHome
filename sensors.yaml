@@ -79,5 +79,5 @@
   entity_id: sensor.garden_humidity
   filters:
     - filter: lowpass
-      time_constant: 20
+      time_constant: 10
       precision: 2
