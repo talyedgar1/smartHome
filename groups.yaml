@@ -104,7 +104,8 @@ awesome_people:
     view: no
     entities:
       - device_tracker.iphonetal
-      - device_tracker.talsmacbookpro  
+      - device_tracker.talsmacbookpro
+      - device_tracker.ortalsiphone
 
 computerRoomGroup:
     name: Kids Room
