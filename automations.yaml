@@ -4,7 +4,7 @@ trigger:
     # Optional
     value_template: '{{ state }}'
     # At least one of the following required
-    above: 600
+    above: 400
     # If given, will trigger when condition has been for X time.
     for:
       minutes: 1
