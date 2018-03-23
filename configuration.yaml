@@ -90,6 +90,8 @@ mqtt:
 #device_tracker:
 #  - platform: owntracks
 
+ios:
+
 device_tracker:
   - platform: icloud
     username: !secret icloud_user
