@@ -1,1 +1,15 @@
-[]
+- alias: 'Notify Garden Soil'
+    trigger:
+        platform: numeric_state
+        entity_id: sensor.garden_humidity
+        # Optional
+        value_template: '{{ state }}'
+        # At least one of the following required
+        above: 700
+        # If given, will trigger when condition has been for X time.
+        for:
+          minutes: 10
+    action:
+        service: notify.ios_iphone__tal
+        data:
+            message: You should consider watering the garden, the soil humidity is {{states("sensor.garden_humidity")}} 
