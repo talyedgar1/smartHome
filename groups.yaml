@@ -4,8 +4,8 @@ default_view:
     entities:
       - sensor.yr_symbol
       - sensor.flood_sensor_temperature_31
-      - remote.apple_tv_4
-      - media_player.apple_tv_4
+      - remote.apple_tv_5
+      - media_player.apple_tv_5
       - group.awesome_people
       # - group.statuses
       - group.kitchen
