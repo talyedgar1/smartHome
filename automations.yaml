@@ -2,10 +2,10 @@ trigger:
     platform: numeric_state
     entity_id: sensor.garden_humidity
     # At least one of the following required
-    above: 400
+    above: 700
     # If given, will trigger when condition has been for X time.
     for:
-      minutes: 1
+      minutes: 10
 action:
     service: notify.ios_iphone__tal
     data:
