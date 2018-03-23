@@ -4,10 +4,10 @@ trigger:
     # Optional
     value_template: '{{ state }}'
     # At least one of the following required
-    above: 700
+    above: 600
     # If given, will trigger when condition has been for X time.
     for:
-      minutes: 10
+      minutes: 1
 action:
     service: notify.ios_iphone__tal
     data:
