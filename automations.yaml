@@ -1,8 +1,6 @@
 trigger:
     platform: numeric_state
     entity_id: sensor.garden_humidity
-    # Optional
-    value_template: '{{ state }}'
     # At least one of the following required
     above: 400
     # If given, will trigger when condition has been for X time.
