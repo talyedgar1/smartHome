@@ -12,6 +12,7 @@ default_view:
       - group.livingRoom
       - group.parents
       - group.kids
+      - group.basement
       - group.first_air_con
       - group.air_con
 
@@ -81,6 +82,8 @@ livingRoom:
       - cover.living_room_m_roller_7
       - cover.living_room_r_roller_16
       - light.living_room
+      - switch.bathroom_wall_54
+      - switch.living_room_ceiling_53
 
 parents:
     name: Parents Room
@@ -93,6 +96,12 @@ kids:
     entities:
       - cover.kids_l_roller_49
       - cover.kids_r_roller_48
+
+basement:
+    name: Basement
+    entities:
+      - switch.basement_ceiling_light_56
+      - switch.basement_wall_lights_57
 
 graphsGroup:
     name: Graphs
