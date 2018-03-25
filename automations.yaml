@@ -1,12 +1,47 @@
-trigger:
-    platform: numeric_state
-    entity_id: sensor.garden_humidity
-    # At least one of the following required
-    above: 700
-    # If given, will trigger when condition has been for X time.
-    for:
-      minutes: 10
-action:
-    service: notify.ios_iphone__tal
-    data:
-        message: You should consider watering the garden, the soil humidity is {{states("sensor.garden_humidity")}} 
+automation1:
+    trigger:
+        platform: numeric_state
+        entity_id: sensor.garden_humidity
+        above: 700
+        for:
+          minutes: 10
+    action:
+        service: notify.ios_iphone__tal
+        data:
+            message: You should consider watering the garden, the soil humidity is {{states("sensor.garden_humidity")}} 
+
+automation2:
+    trigger:
+        platform: state
+        entity_id: sensor.garden_humidity
+        from:
+            "off"
+        to:
+            "on"
+    action:
+        service: notify.ios_iphone__tal
+        data:
+            message: Reported leak in the kitchen 
+
+automation3:
+  trigger:
+    platform: state
+    entity_id: device_tracker.iphonetal
+    from: 'away'
+    to: 'home'
+    action:
+        service: notify.ios_iphone__tal
+        data:
+            message: Tal is at home 
+
+automation4:
+  trigger:
+    platform: state
+    entity_id: device_tracker.ortalsiphone
+    from: 'away'
+    to: 'home'
+
+    action:
+        service: notify.ios_iphone__tal
+        data:
+            message: Ortal is at home 
