@@ -77,7 +77,7 @@ cloud:
 vera:
   vera_controller_url: http://10.100.102.200:3480/
   
-prometheus:
+# prometheus:
 
 #mqtt:
 #  broker: 10.100.102.100
