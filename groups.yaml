@@ -2,6 +2,8 @@ default_view:
     view: yes
     icon: mdi:home 
     entities:
+      - sensor.weather_wind_speed
+      - sensor.weather_wind_direction
       - sensor.yr_symbol
       - sensor.flood_sensor_temperature_31
       - remote.apple_tv_5
