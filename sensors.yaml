@@ -83,8 +83,8 @@
       precision: 2
       
 - platform: yr
-    name: Weather
-    forecast: 24
-    monitored_conditions:
-      - windSpeed
-      - windDirection
+  name: Weather
+  forecast: 24
+  monitored_conditions:
+    - windSpeed
+    - windDirection
