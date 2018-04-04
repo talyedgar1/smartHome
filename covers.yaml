@@ -1,0 +1,25 @@
+- platform: group
+  name: kidsCoverGroup
+  entities:
+    - cover.kids_l_roller_49
+    - cover.kids_r_roller_48
+
+- platform: group
+  name: parentsCoverGroup
+  entities:
+    - cover.parents_l_roller_50
+    - cover.parents_r_roller_36
+
+- platform: group
+  name: kitchenCoverGroup
+  entities:
+    - cover.kitchen_left_roller_5
+    - cover.kitchen_right_roller_6
+
+- platform: group
+  name: livingRoomCoverGroup
+  entities:
+    - cover.living_room_l_roller__10
+    #- cover.living_room_m_roller_7
+    - cover.living_room_r_roller_16
+    - cover.living_room_b_roller_15
