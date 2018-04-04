@@ -73,12 +73,15 @@ kitchen:
     icon: mdi:fridge
     name: Kitchen
     entities:
+      - cover.kitchencovergroup
       - cover.kitchen_left_roller_5
       - cover.kitchen_right_roller_6
+
 
 livingRoom:
     name: Living Room
     entities:
+      - cover.livingroomcovergroup
       - cover.living_room_b_roller_15
       - cover.living_room_l_roller__10
       - cover.living_room_m_roller_7
@@ -90,12 +93,14 @@ livingRoom:
 parents:
     name: Parents Room
     entities:
+      - cover.parentscovergroup
       - cover.parents_r_roller_36
       - cover.parents_l_roller_50
 
 kids:
     name: kids Room
     entities:
+      - cover.kidscovergroup
       - cover.kids_l_roller_49
       - cover.kids_r_roller_48
 
