@@ -17,7 +17,7 @@ homeassistant:
   #    config: !include floorplan.yaml
   customize: !include customize.yaml
 
-homekit:
+# homekit:
 # Show links to resources in log and frontend
 #introduction:
 
