@@ -21,14 +21,14 @@ default_view:
 air_con:
     name: Air Condition
     entities:
-      - switch.parents_air_condition 
-      - switch.kids_air_condition
+      - switch.parents_air_con 
+      - switch.kids_air_con
 
 first_air_con:
     name: First Floor Air Condition
     entities:
-      - switch.living_room_air_condition 
-      - switch.play_room_air_condition 
+      - switch.living_room_air_con 
+      - switch.play_room_air_con 
 
 statuses:
   name: Statuses
