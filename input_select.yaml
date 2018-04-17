@@ -7,9 +7,9 @@ living_room_status:
 
 watering_time:
   options:
-    - 1:00
-    - 2:00
-    - 3:00
+    - "1:00"
+    - "2:00"
+    - "3:00"
 # living_room_preset:
 #     options:
 #       - Visitors
