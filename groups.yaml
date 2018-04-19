@@ -119,7 +119,7 @@ awesome_people:
     name: Awesome People
     view: no
     entities:
-      - device_tracker.iphonetal
+      - device_tracker.iphone__tal
       - device_tracker.talsmacbookpro
       - device_tracker.ortalsiphone
 
