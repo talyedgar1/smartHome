@@ -164,4 +164,6 @@ waterManagement:
       - scene.bushes_one_hour
       - scene.trees_one_hour
       - input_select.watering_time
+      - input_boolean.trees_watering
+      - input_boolean.bushes_watering
       

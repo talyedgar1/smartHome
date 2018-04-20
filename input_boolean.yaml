@@ -1,0 +1,8 @@
+trees_watering:
+    name: Trees Watering
+    initial: off
+    icon: mdi:tree
+bushes_watering:
+    name: Bushes Watering
+    initial: off
+    icon: mdi:pine-tree

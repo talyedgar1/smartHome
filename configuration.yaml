@@ -158,5 +158,6 @@ sensor: !include sensors.yaml
 scene: !include scenes.yaml
 history_graph: !include graphs.yaml
 input_select: !include input_select.yaml
+input_boolean: !include input_boolean.yaml
 zone: !include zones.yaml
 cover: !include covers.yaml
