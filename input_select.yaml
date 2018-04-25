@@ -5,14 +5,15 @@ living_room_status:
     - Dark
   initial: Dark
 
-watering_time:
+trees_watering_time:
   options:
-    - "0:01"
     - "1:00"
     - "2:00"
     - "3:00"
-# living_room_preset:
-#     options:
-#       - Visitors
-#       - Visitors with kids
-#       - Home Alone
+
+bushes_watering_time:
+  options:
+    - "0:30"
+    - "1:00"
+    - "2:00"
+    - "3:00"
