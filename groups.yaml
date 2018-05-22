@@ -146,6 +146,13 @@ gardenSensorsGroup:
       - sensor.bushes
       - sensor.water_cost
       
+wazeSensorsGroup:
+    name: Waze Sensors
+    view: no
+    entities:
+        - sensor.homework
+        - sensor.workhome
+      
 sensors:
     name: Sensors
     view: yes
@@ -155,6 +162,7 @@ sensors:
       - group.computerRoomGroup
       - group.parentsRoomGroup
       - group.gardenSensorsGroup
+      - group.wazeSensorsGroup
       
 waterManagement:
     name: Water Management

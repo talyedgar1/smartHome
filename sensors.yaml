@@ -94,3 +94,9 @@
   origin: Efroni Street, Tel Mond, Israel
   destination: 5 Arie Regev, Netanya, Israel
   region: 'IL'
+  
+- platform: waze_travel_time
+  name: work->home
+  origin: 5 Arie Regev, Netanya, Israel
+  destination: Efroni Street, Tel Mond, Israel
+  region: 'IL'
