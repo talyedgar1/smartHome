@@ -21,6 +21,7 @@ default_view:
 air_con:
     name: Air Condition
     entities:
+      - switch.parents_fan
       - switch.parents_air_con 
       - switch.kids_air_con
 
