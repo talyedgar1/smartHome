@@ -88,3 +88,9 @@
   monitored_conditions:
     - windSpeed
     - windDirection
+   
+- platform: waze_travel_time
+  name: home->work
+  origin: Efroni Street, Tel Mond, Israel
+  destination: 5 Arie Regev, Netanya, Israel
+  region: 'IL'
