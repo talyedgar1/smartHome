@@ -34,7 +34,7 @@ config:
 
 http:
   api_password: !secret http_password
-  base_url: https://yedgar.duckdns.org:8123
+  base_url: https://yedgar.duckdns.org
   ssl_certificate: /ssl/fullchain.pem
   ssl_key: /ssl/privkey.pem
  # cors_allowed_origins:
