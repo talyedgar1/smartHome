@@ -84,17 +84,19 @@
       
 - platform: yr
   name: Weather
-  forecast: 24
+  #forecast: 24
   monitored_conditions:
     - windSpeed
     - windDirection
 
-- platform: darksky
-  name: darksky
-  api_key: 65429b690c252269a4c1aee64e99d567
-  monitored_conditions:
-    - wind_speed
-    - wind_bearing
+- platform: template
+  sensors:
+    water_cost:
+        friendly_name: "wind speed"
+        value_template: >- 
+            {{ (states.sensor.sensor.weather_wind_speed.state | float * 1.944) | round(2) }}
+        unit_of_measurement: 'Kn'
+
 
 - platform: waze_travel_time
   name: home->work
