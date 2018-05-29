@@ -88,7 +88,14 @@
   monitored_conditions:
     - windSpeed
     - windDirection
-   
+
+- platform: darksky
+  name: darksky
+  api_key: 65429b690c252269a4c1aee64e99d567
+  monitored_conditions:
+    - wind_speed
+    - wind_bearing
+
 - platform: waze_travel_time
   name: home->work
   origin: Efroni Street, Tel Mond, Israel
