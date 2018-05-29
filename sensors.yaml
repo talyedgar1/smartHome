@@ -91,10 +91,10 @@
 
 - platform: template
   sensors:
-    water_cost:
+    wind_speed:
         friendly_name: "wind speed"
         value_template: >- 
-            {{ (states.sensor.sensor.weather_wind_speed.state | float * 1.944) | round(2) }}
+            {{ (states.sensor.weather_wind_speed.state | float * 1.944) | round(2) }}
         unit_of_measurement: 'Kn'
 
 
