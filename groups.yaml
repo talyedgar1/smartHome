@@ -95,9 +95,9 @@ parents:
     name: Parents Room
     entities:
       - cover.parentscovergroup
-      - cover.parents_r_roller_36
+#      - cover.parents_r_roller_36
       - cover.parents_l_roller_50
-      - zwave.fibaro_system_fgrm222_roller_shutter_controller_2
+      - cover.level
 
 kids:
     name: kids Room
