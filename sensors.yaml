@@ -84,11 +84,20 @@
       
 - platform: yr
   name: Weather
-  forecast: 24
+  #forecast: 24
   monitored_conditions:
     - windSpeed
     - windDirection
-   
+
+- platform: template
+  sensors:
+    wind_speed:
+        friendly_name: "wind speed"
+        value_template: >- 
+            {{ (states.sensor.weather_wind_speed.state | float * 1.944) | round(2) }}
+        unit_of_measurement: 'Kn'
+
+
 - platform: waze_travel_time
   name: home->work
   origin: Efroni Street, Tel Mond, Israel
