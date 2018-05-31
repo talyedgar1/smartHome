@@ -83,17 +83,23 @@ livingRoom:
     name: Living Room
     entities:
       - cover.livingroomcovergroup
-      - cover.living_room_b_roller_15
-      - cover.living_room_l_roller__10
+#      - cover.living_room_b_roller_15
+#      - cover.living_room_l_roller__10
 #      - cover.living_room_m_roller_7
       - cover.level_5
-      - cover.living_room_r_roller_16
+      - cover.level_6
+      - cover.level_7
+      - cover.level_8
+#      - cover.living_room_r_roller_16
       - light.living_room
 #      - switch.bathroom_wall_54
 #      - switch.living_room_ceiling_53
-      - switch.switch_5
-      - switch.fibaro_system_fgs223_double_relay_switch
+#      - switch.switch_5
+#      - switch.fibaro_system_fgs223_double_relay_switch
 #      - switch.switch_6
+      - cover.switch_6
+      - cover.switch_7
+      - cover.switch_8
 
 parents:
     name: Parents Room
