@@ -104,8 +104,10 @@ kids:
     name: kids Room
     entities:
       - cover.kidscovergroup
-      - cover.kids_l_roller_49
-      - cover.kids_r_roller_48
+#      - cover.kids_l_roller_49
+#      - cover.kids_r_roller_48
+      - cover.level_3
+      - cover.level_4
 
 basement:
     name: Basement
