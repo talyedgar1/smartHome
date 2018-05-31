@@ -76,8 +76,8 @@ sun:
 
 cloud:
 
-vera:
-  vera_controller_url: http://10.100.102.200:3480/
+#vera:
+#  vera_controller_url: http://10.100.102.200:3480/
   
 zwave:
   usb_path: /dev/ttyACM0
