@@ -96,8 +96,9 @@ parents:
     entities:
       - cover.parentscovergroup
 #      - cover.parents_r_roller_36
-      - cover.parents_l_roller_50
+#      - cover.parents_l_roller_50
       - cover.level
+      - cover.level_2
 
 kids:
     name: kids Room
