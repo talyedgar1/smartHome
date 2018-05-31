@@ -88,8 +88,10 @@ livingRoom:
       - cover.living_room_m_roller_7
       - cover.living_room_r_roller_16
       - light.living_room
-      - switch.bathroom_wall_54
-      - switch.living_room_ceiling_53
+#      - switch.bathroom_wall_54
+#      - switch.living_room_ceiling_53
+      - switch.switch_5
+      - switch.switch_6
 
 parents:
     name: Parents Room
