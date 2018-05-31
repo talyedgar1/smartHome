@@ -75,8 +75,10 @@ kitchen:
     name: Kitchen
     entities:
       - cover.kitchencovergroup
-      - cover.kitchen_left_roller_5
-      - cover.kitchen_right_roller_6
+#      - cover.kitchen_left_roller_5
+#      - cover.kitchen_right_roller_6
+      - cover.level_9
+      - cover.level_10
 
 
 livingRoom:
@@ -97,9 +99,7 @@ livingRoom:
 #      - switch.switch_5
 #      - switch.fibaro_system_fgs223_double_relay_switch
 #      - switch.switch_6
-      - cover.switch_6
-      - cover.switch_7
-      - cover.switch_8
+      
 
 parents:
     name: Parents Room
