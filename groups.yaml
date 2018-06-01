@@ -75,8 +75,6 @@ kitchen:
     name: Kitchen
     entities:
       - cover.kitchencovergroup
-#      - cover.kitchen_left_roller_5
-#      - cover.kitchen_right_roller_6
       - cover.level_9
       - cover.level_10
 
@@ -85,28 +83,17 @@ livingRoom:
     name: Living Room
     entities:
       - cover.livingroomcovergroup
-#      - cover.living_room_b_roller_15
-#      - cover.living_room_l_roller__10
-#      - cover.living_room_m_roller_7
       - cover.level_5
       - cover.level_6
       - cover.level_7
       - cover.level_8
-#      - cover.living_room_r_roller_16
       - light.living_room
-#      - switch.bathroom_wall_54
-#      - switch.living_room_ceiling_53
-#      - switch.switch_5
-#      - switch.fibaro_system_fgs223_double_relay_switch
-#      - switch.switch_6
       
 
 parents:
     name: Parents Room
     entities:
       - cover.parentscovergroup
-#      - cover.parents_r_roller_36
-#      - cover.parents_l_roller_50
       - cover.level
       - cover.level_2
 
@@ -114,8 +101,6 @@ kids:
     name: kids Room
     entities:
       - cover.kidscovergroup
-#      - cover.kids_l_roller_49
-#      - cover.kids_r_roller_48
       - cover.level_3
       - cover.level_4
 
@@ -182,15 +167,10 @@ waterManagement:
     name: Water Management
     view: yes
     entities:
-#      - switch.garden_bushes_43
-#      - switch.garden_trees_42
-#      - scene.bushes_one_hour
-#      - scene.trees_one_hour
       - input_select.trees_watering_time
       - input_select.bushes_watering_time
       - input_boolean.trees_watering
       - input_boolean.bushes_watering
-      - switch.wenzhou_tkb_control_system_unknown_type0001_id0004_switch
       - switch.wenzhou_tkb_control_system_unknown_type0001_id0004_switch_2
       - switch.wenzhou_tkb_control_system_unknown_type0001_id0004_switch_3
       
