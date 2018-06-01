@@ -182,12 +182,15 @@ waterManagement:
     name: Water Management
     view: yes
     entities:
-      - switch.garden_bushes_43
-      - switch.garden_trees_42
-      - scene.bushes_one_hour
-      - scene.trees_one_hour
+#      - switch.garden_bushes_43
+#      - switch.garden_trees_42
+#      - scene.bushes_one_hour
+#      - scene.trees_one_hour
       - input_select.trees_watering_time
       - input_select.bushes_watering_time
       - input_boolean.trees_watering
       - input_boolean.bushes_watering
+      - switch.wenzhou_tkb_control_system_unknown_type0001_id0004_switch
+      - switch.wenzhou_tkb_control_system_unknown_type0001_id0004_switch_2
+      - switch.wenzhou_tkb_control_system_unknown_type0001_id0004_switch_3
       
