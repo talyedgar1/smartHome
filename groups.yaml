@@ -11,9 +11,9 @@ default_view:
       - group.awesome_people
       # - group.statuses
       - group.covers
-      # - group.kitchen
-      # - group.livingRoom
-      # - group.parents
+      - group.kitchen
+      - group.livingRoom
+      - group.parents
       - group.kids
       - group.basement
       - group.first_air_con
