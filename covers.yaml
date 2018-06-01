@@ -1,25 +1,24 @@
 - platform: group
   name: kidsCoverGroup
   entities:
-    - cover.kids_l_roller_49
-    - cover.kids_r_roller_48
+    - cover.level_3
+    - cover.level_4
 
 - platform: group
   name: parentsCoverGroup
   entities:
-    - cover.parents_l_roller_50
-    - cover.parents_r_roller_36
+    - cover.level
+    - cover.level_2
 
 - platform: group
   name: kitchenCoverGroup
   entities:
-    - cover.kitchen_left_roller_5
-    - cover.kitchen_right_roller_6
+    - cover.level_9
+    - cover.level_10
 
 - platform: group
   name: livingRoomCoverGroup
   entities:
-    - cover.living_room_l_roller__10
-    - cover.living_room_m_roller_7
-    - cover.living_room_r_roller_16
-    - cover.living_room_b_roller_15
+    - cover.level_5
+    - cover.level_6
+    - cover.level_7

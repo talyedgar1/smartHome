@@ -10,9 +10,10 @@ default_view:
       - media_player.apple_tv_5
       - group.awesome_people
       # - group.statuses
-      - group.kitchen
-      - group.livingRoom
-      - group.parents
+      - group.covers
+      # - group.kitchen
+      # - group.livingRoom
+      # - group.parents
       - group.kids
       - group.basement
       - group.first_air_con
@@ -69,6 +70,15 @@ SecondFloorScenes:
   entities:
     - scene.parents_room_50
     - scene.second_floor_50
+
+covers:
+    name: covers
+    entities:
+      - cover.livingroomcovergroup
+      - cover.level_8
+      - cover.kitchencovergroup
+      - cover.parentscovergroup
+      - cover.kidscovergroup
 
 kitchen:
     icon: mdi:fridge
