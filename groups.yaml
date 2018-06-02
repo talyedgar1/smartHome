@@ -84,7 +84,7 @@ kitchen:
     icon: mdi:fridge
     name: Kitchen
     entities:
-      - cover.kitchencovergroup
+#      - cover.kitchencovergroup
       - cover.level_9
       - cover.level_10
 
@@ -92,7 +92,7 @@ kitchen:
 livingRoom:
     name: Living Room
     entities:
-      - cover.livingroomcovergroup
+#      - cover.livingroomcovergroup
       - cover.level_5
       - cover.level_6
       - cover.level_7
@@ -105,14 +105,14 @@ livingRoom:
 parents:
     name: Parents Room
     entities:
-      - cover.parentscovergroup
+#      - cover.parentscovergroup
       - cover.level
       - cover.level_2
 
 kids:
     name: kids Room
     entities:
-      - cover.kidscovergroup
+#      - cover.kidscovergroup
       - cover.level_3
       - cover.level_4
 
