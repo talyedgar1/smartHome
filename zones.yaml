@@ -25,7 +25,7 @@
 - name: Hila and Guy
   latitude: 32.430127597375
   longitude: 34.94698692589
-  radius: 300
+  radius: 500
   icon: mdi:pig
 
 - name: Sailing
