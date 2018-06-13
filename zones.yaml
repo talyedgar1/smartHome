@@ -1,7 +1,7 @@
 - name: Home
   latitude: !secret home_lat
   longitude: !secret home_lon
-  radius: 50
+  radius: 1000
   icon: mdi:home-variant
 
 - name: Errands
