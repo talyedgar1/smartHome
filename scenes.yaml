@@ -1,39 +1,20 @@
-# cover.kids_l_roller_49
-# cover.kids_r_roller_48
-# cover.living_room_l_roller__10
-# cover.living_room_m_roller_7
-# cover.living_room_r_roller_16
-# cover.living_room_b_roller_15
-# cover.parents_l_roller_50
-# cover.parents_r_roller_36
-# cover.kitchen_left_roller_5
-# cover.kitchen_right_roller_6
-
 - name: Second Floor 50
   entities:
-    cover.parents_r_roller_36:
+    cover.parentscovergroup:
       position: 50
-    cover.parents_l_roller_50:
-      position: 50
-    cover.kids_l_roller_49:
-      position: 50
-    cover.kids_r_roller_48:
+    cover.kidscovergroup:
       position: 50
 
 - name: Parents Room 50
   entities:
-    cover.parents_r_roller_36:
+    cover.parentscovergroup:
       position: 50
-    cover.parents_l_roller_50:
-      position: 50 
 
 - name: Kitchen And Big 50
   entities:
-    cover.kitchen_left_roller_5:
+    cover.kitchencovergroup:
       position: 50
-    cover.kitchen_right_roller_6:
-      position: 50
-    cover.living_room_b_roller_15:
+    cover.level_8:
       position: 50
 
 - name: First Floor 50
@@ -68,25 +49,15 @@
 
 - name: Lock House
   entities:
-    cover.kitchen_left_roller_5:
+    over.livingroomcovergroup:
       position: 0
-    cover.kitchen_right_roller_6:
+    cover.level_8:
       position: 0
-    cover.living_room_b_roller_15:
+    cover.kitchencovergroup:
       position: 0
-    cover.living_room_l_roller__10:
+    cover.parentscovergroup:
       position: 0
-    cover.living_room_m_roller_7:
-      position: 0
-    cover.living_room_r_roller_16:
-      position: 0
-    cover.parents_r_roller_36:
-      position: 0
-    cover.parents_l_roller_50:
-      position: 0
-    cover.kids_l_roller_49:
-      position: 0
-    cover.kids_r_roller_48:
+    cover.kidscovergroup:
       position: 0
       
 - name: Shut Basement
