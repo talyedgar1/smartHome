@@ -48,7 +48,7 @@
   
 - platform: history_stats
   name: bushes
-  entity_id: switch.garden_bushes_43
+  entity_id: switch.wenzhou_tkb_control_system_unknown_type0001_id0004_switch_3
   state: 'on'
   type: time
   start: '{{ now().replace(day=1).replace(hour=0).replace(minute=0).replace(second=0)}}'
@@ -56,7 +56,7 @@
   
 - platform: history_stats
   name: trees
-  entity_id: switch.garden_trees_42
+  entity_id: switch.wenzhou_tkb_control_system_unknown_type0001_id0004_switch_2
   state: 'on'
   type: time
   start: '{{ now().replace(day=1).replace(hour=0).replace(minute=0).replace(second=0)}}'
