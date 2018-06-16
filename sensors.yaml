@@ -68,8 +68,8 @@
     water_cost:
         friendly_name: "Garden Water Cost"
         value_template: >- 
-            {% set trees_litters = 16 %}
-            {% set bushes_litters = 21 %}
+            {% set trees_litters = 32 %}
+            {% set bushes_litters = 38 %}
             {% set costPerLitter = 0.009  %}
             {{ (states('sensor.bushes')|float *bushes_litters + states('sensor.trees')|float *trees_litters) *costPerLitter }}
         unit_of_measurement: '₪'
