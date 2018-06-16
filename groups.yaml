@@ -6,8 +6,7 @@ default_view:
       - sensor.weather_wind_direction
       - sensor.yr_symbol
       - sensor.flood_sensor_temperature_31
-      - remote.apple_tv_5
-      - media_player.apple_tv_5
+      - input_boolean.away
       - group.awesome_people
       # - group.statuses
       - group.covers
