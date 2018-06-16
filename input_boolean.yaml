@@ -6,3 +6,6 @@ bushes_watering:
     name: Bushes Watering
     initial: off
     icon: mdi:pine-tree
+away:
+    name: Away
+    initial: off
