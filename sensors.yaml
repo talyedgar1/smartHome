@@ -24,6 +24,12 @@
   unit_of_measurement: 'Numeric'
   value_template: '{{ float(value_json.humidity ) }}'
   
+- platform: mqtt
+  name: Boiler Temprature 
+  state_topic: boilerTemp
+  unit_of_measurement: 'Numeric'
+  value_template: '{{ float(value_json.temp ) }}'
+  
 #- platform: mqtt
 #  name: Parents Room Temp
 #  state_topic: parentsRoom
