@@ -5,7 +5,7 @@ default_view:
       - sensor.wind_speed
       - sensor.weather_wind_direction
       - sensor.yr_symbol
-      - sensor.flood_sensor_temperature_31
+      - sensor.boiler_temprature
       - input_boolean.away
       - group.awesome_people
       # - group.statuses
