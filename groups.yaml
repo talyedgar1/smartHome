@@ -119,7 +119,6 @@ basement:
     entities:
       - switch.fibaro_system_fgs223_double_relay_switch_2
       - switch.fibaro_system_fgs223_double_relay_switch_3
-      - switch.switch_12
 
 graphsGroup:
     name: Graphs
