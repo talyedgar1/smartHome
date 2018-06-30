@@ -98,7 +98,8 @@ livingRoom:
       - cover.level_8
       - switch.switch_5
       - switch.fibaro_system_fgs223_double_relay_switch
-      
+      - switch.philio_technology_corporation_unknown_type0001_id0013_switch
+      - switch.philio_technology_corporation_unknown_type0001_id0013_switch_2
 
 parents:
     name: Parents Room
