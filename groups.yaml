@@ -168,6 +168,8 @@ sensors:
     entities:
       - sensor.garden_humidity
       - sensor.realistic_humidity
+      - sensor.temp1
+      - sensor.hum1
       - group.computerRoomGroup
       - group.parentsRoomGroup
       - group.gardenSensorsGroup
