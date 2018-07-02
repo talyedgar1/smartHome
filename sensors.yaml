@@ -33,12 +33,12 @@
 - platform: mqtt
   name: temp1
   state_topic: device1
-  value_template: '{{ float(my_test_json.temperature).split(";")[0] }}'
+  value_template: '{{ float(value_json.svalue).split(";")[0] }}'
   
 - platform: mqtt
   name: hum1
   state_topic: device1
-  value_template: '{{ float(my_test_json.temperature).split(";")[1] }}'
+  value_template: '{{ float(value_json.svalue).split(";")[1] }}'
   
 #- platform: mqtt
 #  name: Parents Room Temp
