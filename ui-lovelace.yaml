@@ -2,7 +2,7 @@ name: My Awesome Home
 views:
     # The name of a view will be used as tab title.
     # Might be used for other things in the future.
-  - name: Example
+  - name: Home
     # Each view can have a different theme applied. Theme should be defined in the frontend.
     theme: dark-mode
     # The cards to show on this view.
@@ -10,12 +10,11 @@ views:
         # The entities card will take a list of entities and show their state.
       - type: entities
         # Title of the entities card
-        title: Example
+        title: Kitchen
         # The entities here will be shown in the same order as specified.
         entities:
-          - input_boolean.switch_ac_kitchen
-          - input_boolean.switch_ac_livingroom
-          - input_boolean.switch_tv
+          - cover.level_9
+          - cover.level_10
 
         # The filter card will filter available entities for certain criteria
         # and render it as type 'entities'.
