@@ -1,11 +1,3 @@
-
-#- platform: mqtt
-#  friendly_name: Outside Temperature
-#  name: outside_temp
-#  state_topic: outside_temp
-#  unit_of_measurement: '°C'
-#  value_template: '{{ float(value_json.temp ) }}'
- 
 #- platform: mqtt
 #  name: Kids Room Temp
 #  state_topic: kidsRoom
