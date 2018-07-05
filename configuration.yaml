@@ -112,6 +112,7 @@ device_tracker:
 #        name: Living Room
 #        transition: 1000
 
+
 switch:
   - platform: broadlink
     host: 10.100.102.10
