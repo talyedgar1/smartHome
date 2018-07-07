@@ -62,5 +62,14 @@
       
 - name: Shut Basement
   entities:
-    switch.basement_ceiling_light_56: off
-    switch.basement_wall_lights_57: off
+    switch.fibaro_system_fgs223_double_relay_switch_2: off
+    switch.fibaro_system_fgs223_double_relay_switch_3: off
+    
+- name: Movie Time Day
+  entities:
+    cover.livingroomcovergroup:
+      position: 0
+
+- name: Movie Time Night
+  entities:
+    
