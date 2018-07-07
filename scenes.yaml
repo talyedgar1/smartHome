@@ -69,6 +69,8 @@
   entities:
     cover.livingroomcovergroup:
       position: 0
+    cover.level_8:
+      position: 15
     cover.kitchencovergroup:
       position: 50
 
