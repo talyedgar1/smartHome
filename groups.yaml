@@ -78,6 +78,7 @@ covers:
       - cover.kitchencovergroup
       - cover.parentscovergroup
       - cover.kidscovergroup
+      - script.1530972079197
 
 kitchen:
     icon: mdi:fridge
