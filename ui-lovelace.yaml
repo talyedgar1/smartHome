@@ -42,3 +42,9 @@ views:
           - input_boolean.switch_ac_kitchen
           - input_boolean.switch_ac_kitchen
           - input_boolean.switch_ac_kitchen
+          
+  - name: UI
+    cards:
+      - type: picture-elements
+        title: Main Level
+        image: /config/pics/first.jpg
