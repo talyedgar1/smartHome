@@ -6,6 +6,7 @@ views:
     # Each view can have a different theme applied. Theme should be defined in the frontend.
     theme: dark-mode
     # The cards to show on this view.
+    title: Home
     cards:
         # The entities card will take a list of entities and show their state.
       - type: entities
@@ -16,6 +17,7 @@ views:
           - cover.level_9
           - cover.level_10
   - name: UI
+    title: UI
     cards:
       - type: picture-elements
         image: https://static.vecteezy.com/system/resources/previews/000/102/594/large_2x/free-floor-plan-vector.jpg
