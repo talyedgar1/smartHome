@@ -18,7 +18,7 @@ views:
   - title: UI
     cards:
       - type: picture-elements
-        image: https://static.vecteezy.com/system/resources/previews/000/102/594/large_2x/free-floor-plan-vector.jpg
+        image: /config/pics/first.jpg
         elements:
           - type: state-icon
             tap_action: toggle
