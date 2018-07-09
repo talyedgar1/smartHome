@@ -2,8 +2,7 @@ name: My Awesome Home
 views:
     # The name of a view will be used as tab title.
     # Might be used for other things in the future.
-  - name: Home
-    # Each view can have a different theme applied. Theme should be defined in the frontend.
+  - title: Home
     theme: dark-mode
     # The cards to show on this view.
     title: Home
@@ -16,8 +15,7 @@ views:
         entities:
           - cover.level_9
           - cover.level_10
-  - name: UI
-    title: UI
+  - title: UI
     cards:
       - type: picture-elements
         image: https://static.vecteezy.com/system/resources/previews/000/102/594/large_2x/free-floor-plan-vector.jpg
