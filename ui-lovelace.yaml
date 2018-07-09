@@ -18,7 +18,7 @@ views:
   - title: UI
     cards:
       - type: picture-elements
-        image: pics/first.jpg
+        image: /local/pics/first.jpg
         elements:
           - type: state-icon
             tap_action: toggle
