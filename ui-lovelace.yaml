@@ -48,3 +48,13 @@ views:
       - type: picture-elements
         title: Main Level
         image: /config/pics/first.jpg
+        elements:
+          - type: service-button
+            title: Lights Off
+            style:
+              top: 97%
+              right: 00%
+              padding: 0px
+            service: light.turn_off
+            service_data:
+              entity_id: group.all_lights
