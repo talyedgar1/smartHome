@@ -1,24 +1,24 @@
 - platform: group
   name: kidsCoverGroup
   entities:
-    - cover.level_3
-    - cover.level_4
+    - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_3
+    - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_4
 
 - platform: group
   name: parentsCoverGroup
   entities:
-    - cover.level
-    - cover.level_2
+    - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level
+    - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_2
 
 - platform: group
   name: kitchenCoverGroup
   entities:
-    - cover.level_9
-    - cover.level_10
+    - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_9
+    - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_10
 
 - platform: group
   name: livingRoomCoverGroup
   entities:
-    - cover.level_5
-    - cover.level_6
-    - cover.level_7
+    - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_5
+    - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_6
+    - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_7
