@@ -14,44 +14,32 @@
   entities:
     cover.kitchencovergroup:
       position: 50
-    cover.level_8:
+    cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_8:
       position: 50
 
 - name: First Floor 50
   entities:
-    cover.level_5:
+    cover.kitchencovergroup:
       position: 50
-    cover.level_6:
+    cover.livingroomcovergroup:
       position: 50
-    cover.level_7:
-      position: 50
-    cover.level_8:
-      position: 50
-    cover.level_9:
-      position: 50
-    cover.level_10:
+    cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_8:
       position: 50
 
 - name: Lock First Floor
   entities:
-    cover.level_5:
+    cover.kitchencovergroup:
       position: 0
-    cover.level_6:
+    cover.livingroomcovergroup:
       position: 0
-    cover.level_7:
-      position: 0
-    cover.level_8:
-      position: 0
-    cover.level_9:
-      position: 0
-    cover.level_10:
+    cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_8:
       position: 0
 
 - name: Lock House
   entities:
-    over.livingroomcovergroup:
+    cover.livingroomcovergroup:
       position: 0
-    cover.level_8:
+    cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_8:
       position: 0
     cover.kitchencovergroup:
       position: 0
@@ -69,7 +57,7 @@
   entities:
     cover.livingroomcovergroup:
       position: 0
-    cover.level_8:
+    cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_8:
       position: 15
     cover.kitchencovergroup:
       position: 50
