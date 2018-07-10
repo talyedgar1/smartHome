@@ -28,10 +28,10 @@ views:
               left: 28%
           - type: state-icon
             tap_action: toggle
-            entity: light.kitchen_lights
+            entity: switch.fibaro_system_fgs223_double_relay_switch
             style:
-              top: 30%
-              left: 15%
+              top: 60%
+              left: 30%
           - type: service-button
             title: Turn lights off
             style:
