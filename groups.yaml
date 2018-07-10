@@ -107,8 +107,8 @@ parents:
     name: Parents Room
     entities:
 #      - cover.parentscovergroup
-      - cover.level
-      - cover.level_2
+      - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level
+      - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_2
 
 kids:
     name: kids Room
