@@ -22,7 +22,7 @@ views:
         elements:
           - type: state-icon
             tap_action: toggle
-            entity: light.ceiling_lights
+            entity: switch.switch_5
             style:
               top: 47%
               left: 42%
@@ -32,11 +32,6 @@ views:
             style:
               top: 30%
               left: 15%
-          - type: state-label
-            entity: sensor.outside_temperature
-            style:
-              top: 82%
-              left: 79%
           - type: service-button
             title: Turn lights off
             style:
