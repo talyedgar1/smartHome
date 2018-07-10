@@ -23,9 +23,6 @@ views:
           - type: state-icon
             tap_action: toggle
             entity: switch.switch_5
-            state_image:
-              "on": /local/on.png
-              "off": /local/off.png
             style:
               top: 25%
               left: 28%
