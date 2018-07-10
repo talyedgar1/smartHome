@@ -68,3 +68,17 @@
     switch.fibaro_system_fgs223_double_relay_switch: off
     switch.fibaro_system_fgs223_double_relay_switch_4: off
     switch.fibaro_system_fgs223_double_relay_switch_5: on
+    
+- name: Second Floor Sunrise Close
+  entities:
+    cover.parentscovergroup:
+      position: 15
+    cover.kidscovergroup:
+      position: 15
+      
+- name: Second Floor Morning Open
+  entities:
+    cover.parentscovergroup:
+      position: 50
+    cover.kidscovergroup:
+      position: 50
