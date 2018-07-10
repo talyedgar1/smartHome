@@ -24,8 +24,8 @@ views:
             tap_action: toggle
             entity: switch.switch_5
             style:
-              top: 20%
-              left: 20%
+              top: 25%
+              left: 28%
           - type: state-icon
             tap_action: toggle
             entity: light.kitchen_lights
