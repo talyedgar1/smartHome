@@ -22,7 +22,7 @@ views:
         elements:
           - type: state-icon
             tap_action: toggle
-            entity: switch.switch_5
+            entity: switch.fibaro_system_fgs223_double_relay_switch_4
             style:
               top: 25%
               left: 28%
