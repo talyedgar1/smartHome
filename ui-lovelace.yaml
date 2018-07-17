@@ -36,9 +36,9 @@ views:
             style:
               top: 60%
               left: 30%
-            state_image:
-              "on": /local/on.png
-              "off": /local/off.png
+              state_image:
+                "on": /local/on.png
+                "off": /local/off.png
           - type: service-button
             title: Turn lights off
             style:
