@@ -36,6 +36,7 @@ views:
             style:
               top: 60%
               left: 30%
+              "--paper-item-icon-color": pink
           - type: service-button
             title: Turn lights off
             style:
