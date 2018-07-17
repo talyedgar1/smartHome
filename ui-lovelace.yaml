@@ -26,7 +26,6 @@ views:
             style:
               top: 25%
               left: 28%
-              "--paper-item-icon-color": pink
             #state_image:
             #  on: /local/on.png
             #  off: /local/off.png
@@ -36,9 +35,6 @@ views:
             style:
               top: 60%
               left: 30%
-              state_image:
-                "on": /local/on.png
-                "off": /local/off.png
           - type: service-button
             title: Turn lights off
             style:
