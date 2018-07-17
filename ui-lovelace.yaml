@@ -26,6 +26,7 @@ views:
             style:
               top: 25%
               left: 28%
+              "--paper-item-icon-color": pink
             state_image:
               on: /local/on.png
               off: /local/off.png
