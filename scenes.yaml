@@ -78,7 +78,7 @@
       
 - name: Second Floor Morning Open
   entities:
-    cover.parentscovergroup:
+    cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_2:
       position: 50
-    cover.kidscovergroup:
+    cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_4:
       position: 50
