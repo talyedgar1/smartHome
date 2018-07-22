@@ -6,7 +6,7 @@ views:
     theme: dark-mode
     cards:
       - type: entities
-        title: Covers
+        title: תריסים
         entities:
           - cover.livingroomcovergroup
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_8
@@ -21,7 +21,7 @@ views:
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_10
 
       - type: entities
-        title: Living Room
+        title: סלון
         entities:
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_5
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_6
@@ -34,19 +34,19 @@ views:
           - switch.philio_technology_corporation_unknown_type0001_id0013_switch
 
       - type: entities
-        title: Parents Room
+        title: הורים
         entities:
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_2
 
       - type: entities
-        title: Kids Room
+        title: ילדים
         entities:
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_3
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_4
 
       - type: entities
-        title: Basement
+        title: מרתף
         entities:
           - switch.fibaro_system_fgs223_double_relay_switch_2
           - switch.fibaro_system_fgs223_double_relay_switch_5
