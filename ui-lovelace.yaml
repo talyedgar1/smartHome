@@ -7,14 +7,53 @@ views:
     # The cards to show on this view.
     title: Home
     cards:
-        # The entities card will take a list of entities and show their state.
       - type: entities
-        # Title of the entities card
-        title: Kitchen
-        # The entities here will be shown in the same order as specified.
+        title: Covers
         entities:
-          - cover.level_9
-          - cover.level_10
+          - cover.livingroomcovergroup
+          - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_8
+          - cover.kitchencovergroup
+          - cover.parentscovergroup
+          - cover.kidscovergroup
+
+      - type: entities
+        title: Kitchen
+        entities:
+          - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_9
+          - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_10
+
+      - type: entities
+        title: Living Room
+        entities:
+          - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_5
+          - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_6
+          - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_7
+          - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_8
+          - switch.fibaro_system_fgs223_double_relay_switch_4
+          - switch.fibaro_system_fgs223_double_relay_switch
+          - switch.fibaro_system_fgs223_double_relay_switch_3
+          - switch.fibaro_system_fgs223_double_relay_switch_6
+          - switch.philio_technology_corporation_unknown_type0001_id0013_switch
+
+      - type: entities
+        title: Parents Room
+        entities:
+          - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level
+          - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_2
+
+      - type: entities
+        title: Kids Room
+        entities:
+          - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_3
+          - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_4
+
+      - type: entities
+        title: Basement
+        entities:
+          - switch.fibaro_system_fgs223_double_relay_switch_2
+          - switch.fibaro_system_fgs223_double_relay_switch_5
+
+
   - title: UI
     cards:
       - type: picture-elements
