@@ -107,6 +107,6 @@ views:
 
       - type: glance
         title: Waze
-        entites:
+        entities:
           - sensor.homework
           - sensor.workhome
