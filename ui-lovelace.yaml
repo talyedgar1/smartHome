@@ -93,14 +93,12 @@ views:
             style:
               top: 35%
               left: 55%
-          - type: service-button
-            title: Turn lights off
-            style:
-              top: 95%
-              left: 60%
-            service: light.turn_off
-            service_data:
-                entity_id: group.all_lights
+      - type: picture-entity
+        entity: switch.fibaro_system_fgs223_double_relay_switch_4
+        image: http://farm7.static.flickr.com/6153/6220100622_88e64ec5d8_b.jpg
+        state_image:
+          "on": http://farm7.static.flickr.com/6220/6220100616_a877f41a66_b.jpg
+        title: Livingroom lights
 
   - title: סנסורים
     cards:
