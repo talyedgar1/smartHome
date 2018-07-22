@@ -81,10 +81,10 @@ views:
             service_data:
                 entity_id: group.all_lights
 
-  - title: Sensors
+  - title: סנסורים
     cards:
       - type: glance
-        title: Watering
+        title: השקייה
         entities:
           - sensor.trees
           - sensor.bushes
@@ -93,20 +93,20 @@ views:
           - sensor.realistic_humidity
 
       - type: glance
-        title: Location
+        title: מיקום
         entities:
           - device_tracker.iphone__tal
           - device_tracker.talsmacbookpro
           - device_tracker.ortalsiphone
 
       - type: glance
-        title: Temperature
+        title: טמפרטורה
         entities:
           - sensor.temp1
           - sensor.hum1
 
       - type: glance
-        title: Waze
+        title: וייז
         entities:
           - sensor.homework
           - sensor.workhome
