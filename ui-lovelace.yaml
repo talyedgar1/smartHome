@@ -4,8 +4,6 @@ views:
     # Might be used for other things in the future.
   - title: Home
     theme: dark-mode
-    # The cards to show on this view.
-    title: Home
     cards:
       - type: entities
         title: Covers
@@ -82,3 +80,33 @@ views:
             service: light.turn_off
             service_data:
                 entity_id: group.all_lights
+
+  - title: Sensors
+    cards:
+      - type: glance
+        title: Watering
+        entities:
+          - sensor.trees
+          - sensor.bushes
+          - sensor.water_cost
+          - sensor.garden_humidity
+          - sensor.realistic_humidity
+
+      - type: glance
+        title: Location
+        entities:
+          - device_tracker.iphone__tal
+          - device_tracker.talsmacbookpro
+          - device_tracker.ortalsiphone
+
+      - type: glance
+        title: Temperature
+        entities:
+          - sensor.temp1
+          - sensor.hum1
+
+      - type: glance
+        title: Waze
+        entites:
+          - sensor.temp1
+          - sensor.hum1
