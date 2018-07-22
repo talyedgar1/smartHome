@@ -184,3 +184,12 @@ waterManagement:
       - switch.wenzhou_tkb_control_system_unknown_type0001_id0004_switch_2
       - switch.wenzhou_tkb_control_system_unknown_type0001_id0004_switch_3
       
+switchGroup:
+    name: Switch Group
+    view: no
+    entities:
+      - switch.fibaro_system_fgs223_double_relay_switch_4
+      - switch.fibaro_system_fgs223_double_relay_switch
+      - switch.fibaro_system_fgs223_double_relay_switch_3
+      - switch.fibaro_system_fgs223_double_relay_switch_6
+      
