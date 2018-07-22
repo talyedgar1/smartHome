@@ -15,6 +15,15 @@ views:
           - cover.kidscovergroup
 
       - type: entities
+        title: מזגנים
+        entities:
+          - switch.living_room_air_con 
+          - switch.play_room_air_con
+          - switch.parents_fan
+          - switch.parents_air_con 
+          - switch.kids_air_con
+
+      - type: entities
         title: מטבח
         entities:
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_9
