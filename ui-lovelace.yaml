@@ -108,5 +108,5 @@ views:
       - type: glance
         title: Waze
         entites:
-          - sensor.temp1
-          - sensor.hum1
+          - sensor.homework
+          - sensor.workhome
