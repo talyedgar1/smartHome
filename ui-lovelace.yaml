@@ -86,13 +86,13 @@ views:
             entity: switch.fibaro_system_fgs223_double_relay_switch_3
             style:
               top: 50%
-              left: 45%
+              left: 55%
           - type: state-icon
             tap_action: toggle
             entity: switch.fibaro_system_fgs223_double_relay_switch_6
             style:
-              top: 50%
-              left: 60%
+              top: 35%
+              left: 55%
           - type: service-button
             title: Turn lights off
             style:
