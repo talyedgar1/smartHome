@@ -15,7 +15,7 @@ views:
           - cover.kidscovergroup
 
       - type: entities
-        title: Kitchen
+        title: מטבח
         entities:
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_9
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_10
