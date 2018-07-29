@@ -82,3 +82,18 @@
       position: 50
     cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_4:
       position: 50
+
+- name: Lock First Floor aircon light 
+  entities:
+    cover.kitchencovergroup:
+      position: 0
+    cover.livingroomcovergroup:
+      position: 0
+    cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_8:
+      position: 0
+    switch.living_room_air_con: off
+    switch.fibaro_system_fgs223_double_relay_switch_4: off
+    switch.fibaro_system_fgs223_double_relay_switch: off
+    switch.fibaro_system_fgs223_double_relay_switch_3: off
+    switch.fibaro_system_fgs223_double_relay_switch_6: off
+    
