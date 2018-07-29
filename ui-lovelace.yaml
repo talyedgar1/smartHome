@@ -21,6 +21,7 @@ views:
           - switch.play_room_air_con
           - switch.parents_fan
           - switch.parents_air_con 
+          - switch.kids_fan
           - switch.kids_air_con
 
       - type: entities
