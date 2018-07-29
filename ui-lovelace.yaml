@@ -54,7 +54,7 @@ views:
         entities:
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_3
           - cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_4
-          - switch.kids_air_con
+          - switch.kids_light
 
       - type: entities
         title: מרתף
