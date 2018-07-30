@@ -34,6 +34,13 @@ homekit:
   #extra_html_url:
   #  - /local/custom_ui/state-card-floorplan.html
 
+frontend:
+  themes:
+    happy:
+      primary-color: pink
+    sad:
+      primary-color: blue
+
 # Enables configuration UI
 config:
 
