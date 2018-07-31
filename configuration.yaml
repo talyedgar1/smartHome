@@ -19,7 +19,7 @@ homeassistant:
   customize: !include customize.yaml
   customize_domain:
     switch:
-      assumed_state: false
+      assumed_state: true
       
 
 
