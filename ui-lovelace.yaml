@@ -151,5 +151,6 @@ views:
   
   - title: אוטומציות
     cards:
-      - type: entities      
+      - type: entities
+        entities:
           - group.all_automations
