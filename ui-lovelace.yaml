@@ -132,7 +132,7 @@ views:
           - type: image
             entity: cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_6
             style:
-              top: 70%
+              top: 85%
               left: 10%
               width: 5%
               height: 15%
@@ -142,7 +142,7 @@ views:
           - type: image
             entity: cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_7
             style:
-              top: 25%
+              top: 30%
               left: 10%
               width: 5%
               height: 15%
