@@ -96,6 +96,7 @@ views:
             style:
               top: 35%
               left: 55%
+            image: /local/on.png
             state_image:
               "on": /local/on.jpg
               "off": /local/off.jpg
