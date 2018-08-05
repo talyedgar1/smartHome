@@ -108,7 +108,27 @@ views:
               width: 5%
             state_image:
               "on": /local/on1.png
-              "off": /local/off1.png
+              "off": /local/off1.png   
+          - type: image
+            entity: cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_9
+            style:
+              top: 8%
+              left: 75%
+              width: 7%
+              height: 3%
+            state_image:
+              "open": /local/cover-on.png
+              "closed": /local/cover-off.png 
+          - type: image
+            entity: cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_10
+            style:
+              top: 15%
+              left: 85%
+              width: 5%
+              height: 15%
+            state_image:
+              "open": /local/cover-on.png
+              "closed": /local/cover-off.png
           - type: image
             entity: cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_8
             style:
