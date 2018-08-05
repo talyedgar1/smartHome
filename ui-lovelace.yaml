@@ -148,3 +148,8 @@ views:
         entities:
           - sensor.homework
           - sensor.workhome
+  
+  - title: אוטומציות
+    cards:
+      - type: entities      
+          - group.all_automations
