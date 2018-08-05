@@ -112,10 +112,10 @@ views:
           - type: image
             entity: cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_8
             style:
-              top: 10%
-              left: 28%
-              width: 5%
-              height: 2%
+              top: 8%
+              left: 32%
+              width: 13%
+              height: 3%
             state_image:
               "open": /local/cover-on.png
               "closed": /local/cover-off.png
