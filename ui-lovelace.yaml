@@ -90,7 +90,7 @@ views:
             style:
               top: 50%
               left: 55%
-          - type: state-icon
+          - type: image
             tap_action: toggle
             entity: switch.fibaro_system_fgs223_double_relay_switch_6
             style:
