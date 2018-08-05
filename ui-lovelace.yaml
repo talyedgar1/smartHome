@@ -125,7 +125,7 @@ views:
               top: 50%
               left: 10%
               width: 14%
-              height: 50%
+              height: 3%
             state_image:
               "open": /local/cover-on.png
               "closed": /local/cover-off.png
