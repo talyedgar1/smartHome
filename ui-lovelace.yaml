@@ -77,8 +77,8 @@ views:
               left: 28%
               width: 5%
             state_image:
-              "on": /local/on.png
-              "off": /local/off.png
+              "on": /local/on1.png
+              "off": /local/off1.png
           - type: image
             tap_action: toggle
             entity: switch.fibaro_system_fgs223_double_relay_switch
@@ -87,8 +87,8 @@ views:
               left: 30%
               width: 5%
             state_image:
-              "on": /local/on1.png
-              "off": /local/off1.png
+              "on": /local/wall-on.png
+              "off": /local/wall-off.png
           - type: image
             tap_action: toggle
             entity: switch.fibaro_system_fgs223_double_relay_switch_3
