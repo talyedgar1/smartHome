@@ -171,10 +171,11 @@ views:
               "closed": /local/cover-off.png
           - type: image
             entity: switch.living_room_air_con
+            tap_action: toggle
             style:
               top: 8%
-              left: 40%
-              width: 5%
+              left: 45%
+              width: 10%
             state_image:
               "on": /local/aircon-on.png
               "off": /local/aircon-off.png
