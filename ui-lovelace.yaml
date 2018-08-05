@@ -227,4 +227,12 @@ views:
     cards:
       - type: entities
         entities:
-          - group.all_automations
+          - automation.close_back_first_floor_at_noon
+          - automation.close_covers_before_sunrise
+          - automation.fan_close_in_the_morning
+          - automation.fan_start_in_the_evening
+          - automation.morning_open_covers
+          - automation.ortal_is_home
+          - automation.tal_is_home
+          - automation.watering
+          - automation.watering_seggestion
