@@ -169,6 +169,15 @@ views:
             state_image:
               "open": /local/cover-on.png
               "closed": /local/cover-off.png
+          - type: image
+            entity: switch.living_room_air_con
+            style:
+              top: 8%
+              left: 40%
+              width: 5%
+            state_image:
+              "open": /local/aircon-on.png
+              "closed": /local/aircon-off.png
       - type: picture-entity
         entity: switch.fibaro_system_fgs223_double_relay_switch_4
         image: http://farm7.static.flickr.com/6153/6220100622_88e64ec5d8_b.jpg
