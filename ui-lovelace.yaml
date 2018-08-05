@@ -97,10 +97,9 @@ views:
               top: 35%
               left: 55%
               width: 15%
-            image: /local/on.png
             state_image:
-              "on": /local/on.jpg
-              "off": /local/off.jpg
+              "on": /local/on.png
+              "off": /local/off.png
           - type: state-icon
             entity: cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_8
             style:
