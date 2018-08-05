@@ -129,6 +129,26 @@ views:
             state_image:
               "open": /local/cover-on.png
               "closed": /local/cover-off.png
+          - type: image
+            entity: cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_6
+            style:
+              top: 70%
+              left: 10%
+              width: 5%
+              height: 15%
+            state_image:
+              "open": /local/cover-on.png
+              "closed": /local/cover-off.png
+          - type: image
+            entity: cover.fibaro_system_fgrm222_roller_shutter_controller_2_level_7
+            style:
+              top: 25%
+              left: 10%
+              width: 5%
+              height: 15%
+            state_image:
+              "open": /local/cover-on.png
+              "closed": /local/cover-off.png
       - type: picture-entity
         entity: switch.fibaro_system_fgs223_double_relay_switch_4
         image: http://farm7.static.flickr.com/6153/6220100622_88e64ec5d8_b.jpg
