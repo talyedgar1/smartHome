@@ -211,6 +211,12 @@ media_player:
 recorder:
   purge_keep_days: 60
   db_url: mysql://ha:Ty12345!@10.100.102.100/ha?charset=utf8
+  
+apple_tv:
+  - host: 10.100.102.9
+    login_id: 00000000-5114-26df-a655-d3053bfa4f00
+    name: Apple TV
+    start_off: true
         
 group: !include groups.yaml
 automation: !include automations.yaml
