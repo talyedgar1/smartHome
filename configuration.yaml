@@ -126,7 +126,7 @@ device_tracker:
 
 switch:
   - platform: broadlink
-    host: 10.100.102.23
+    host: 10.100.102.5
     mac: '34:ea:34:42:aa:3b'
     type: rm_mini
     switches:
@@ -144,7 +144,7 @@ switch:
         command_off: 'JgBSASkPKQ4NKikQKA4OKQ4qDSoOKg0qDiop6yoOKQ4OKikPKQ8MKg4qDSoNKg4qDSop7CoPKA8NKikOKQ8NKg0qDioNKg4pDiop7CkOKg8MKikPKQ4OKQ4qDSoOKg0qDikq6yoPKA8NKikPKg0OKQ8oDykPKA8pDikr6isNKg0PKCsNKg0PKQ4pDygPKQ8oECgr6isMLAwPKCwLLAwQJxAoECcQJxAoECcs6SwMLAsQKCsMLAwQJxAnEScQJxAoECcs6SwMLAsQJywMLAsQKBAnECgQJxAnEScs6SwLLAwQJywMKwwQJxEnECcQKBAnECcs6SwMLAsRJywLLAwQJxAnECgQJxAoECcs6SwLLAwQJywMKwwQJxAoECcQKA8oECgq6isNKw0OKSoNKw4OKA8pDikPKA8pDygr6isNKg0PKCsNKg0PKQ8oDykOKQ8oDykqAA0FAAAAAAAA'
 
   - platform: broadlink
-    host: 10.100.102.32
+    host: 10.100.102.4
     mac: '34:ea:34:42:b6:46'
     type: rm_mini
     switches:
@@ -165,7 +165,7 @@ switch:
         command_off: 'JgDyACwMLAsQKCwMLAssDBAnECgQJxAoKwws6iwLLQsQJywMLAssDBAoECcRJxAnLAws6SwMLAsQKCwLLQssDBAnECgQKBAnKw0r6iwMLAsQJywMLAssDBEnECcRJxAoLAos6iwMLAwQJy0KLAwtChEnECgQJxAoLAss6iwLLAwQJywMLAssDBAoECcQKBAnLAwr6iwMLAsQKCwLLAwsDBAnECgQJxAoLAss6iwLLQoRKC0JLQwtChEnECcRJxAnLAwt6CwMLQoRJywLLQssDBAnECgQKBAnLAws6SwMKwwRJiwMLAwrDBEnECcQKBAoKwwrAA0FAAAAAAAA'
         
   - platform: broadlink
-    host: 10.100.102.21
+    host: 10.100.102.6
     mac: '34:ea:34:42:b6:56'
     type: rm_mini
     switches:
@@ -178,7 +178,7 @@ switch:
         command_off: 'JgC+AGSCQB8gQT8gHyEfISAgICAgIB8gIEAgIEAfICAgICAgICEfIB8hICAfICAgICAfIR8hICEfICAgHyEfQD8hYoFAICBAQCEeISAgICAfIR8hHyAfQSAhPiEfICEfISAeISAgHyEgICAfICAgICAgICEeIR8iHiEgICA/QCFggz8gIEA/Ih4hICAfICAgISAfICBBHyA/ISAfICAgICAgICEeIR8iHyAgIB8gISAeISAhHyEeIR8gIEBAIIEADQUAAAAAAAAAAAAA'
 
   - platform: broadlink
-    host: 10.100.102.22
+    host: 10.100.102.17
     mac: '34:ea:34:42:bb:86'
     type: rm_mini
     switches:
