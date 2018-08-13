@@ -68,6 +68,7 @@ views:
     cards:
       - type: picture-elements
         image: /local/first.jpg
+        panel: true
         elements:
           - type: image
             tap_action: toggle
