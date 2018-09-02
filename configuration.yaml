@@ -102,9 +102,6 @@ mqtt:
   username: !secret mqtt_user
   password: !secret mqtt_password
   
-#device_tracker:
-#  - platform: owntracks
-
 ios:
 
 device_tracker:
@@ -116,6 +113,9 @@ device_tracker:
    username: !secret icloud_user_ortal
    password: !secret icloud_pass_ortal
    account_name: ortal
+ - platform: owntracks
+   mqtt_topic: "owntracks/#"
+   events_only: True
 
 #light:
 #  - platform: yeelight
