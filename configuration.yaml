@@ -114,7 +114,7 @@ device_tracker:
    password: !secret icloud_pass_ortal
    account_name: ortal
  - platform: owntracks
-   mqtt_topic: "owntracks/#"
+   mqtt_topic: "owntracks/own/"
    events_only: True
 
 #light:
