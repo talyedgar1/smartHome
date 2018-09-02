@@ -116,6 +116,7 @@ device_tracker:
  - platform: owntracks
    mqtt_topic: "owntracks/own/"
    events_only: True
+   waypoints: True
 
 #light:
 #  - platform: yeelight
