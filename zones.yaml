@@ -33,3 +33,9 @@
   longitude: 34.765806
   radius: 5000
   icon: mdi:ferry
+  
+- name: 'upstairs'
+  latitude: !secret home_lat
+  longitude: !secret home_lon
+  radius: 3
+  passive: true
