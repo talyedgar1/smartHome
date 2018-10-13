@@ -206,9 +206,9 @@ media_player:
     host: 10.100.102.14
     port: 8001
 
-recorder:
-  purge_keep_days: 60
-  db_url: mysql://ha:Ty12345!@10.100.102.100/ha?charset=utf8
+#recorder:
+#  purge_keep_days: 60
+#  db_url: mysql://ha:Ty12345!@10.100.102.100/ha?charset=utf8
   
 apple_tv:
   - host: 10.100.102.9
