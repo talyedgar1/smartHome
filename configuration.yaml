@@ -216,10 +216,14 @@ apple_tv:
     name: Apple TV
     start_off: true
     
-notify:
-  - name: talTel
-    platform: telegram
-    chat_id: "722394843:AAHBJclMrDJMRJ16f_oo5NM7uMGBIwBb7SY"
+telegram_bot:
+  - platform: polling
+    api_key: 722394843:AAHBJclMrDJMRJ16f_oo5NM7uMGBIwBb7SY
+    
+#notify:
+#  - name: talTel
+#    platform: telegram
+#    chat_id: "722394843:AAHBJclMrDJMRJ16f_oo5NM7uMGBIwBb7SY"
         
 group: !include groups.yaml
 automation: !include automations.yaml
