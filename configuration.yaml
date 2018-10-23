@@ -219,7 +219,7 @@ apple_tv:
 notify:
   - name: talTel
     platform: telegram
-    chat_id: 722394843:AAHBJclMrDJMRJ16f_oo5NM7uMGBIwBb7SY
+    chat_id: "722394843:AAHBJclMrDJMRJ16f_oo5NM7uMGBIwBb7SY"
         
 group: !include groups.yaml
 automation: !include automations.yaml
