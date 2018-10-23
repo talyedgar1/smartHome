@@ -215,6 +215,11 @@ apple_tv:
     login_id: 00000000-5114-26df-a655-d3053bfa4f00
     name: Apple TV
     start_off: true
+    
+notify:
+  - name: talTel
+    platform: telegram
+    chat_id: 722394843:AAHBJclMrDJMRJ16f_oo5NM7uMGBIwBb7SY
         
 group: !include groups.yaml
 automation: !include automations.yaml
