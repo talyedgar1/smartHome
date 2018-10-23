@@ -220,9 +220,7 @@ telegram_bot:
   - platform: polling
     api_key: 722394843:AAHBJclMrDJMRJ16f_oo5NM7uMGBIwBb7SY
     allowed_chat_ids:
-      - CHAT_ID_1
-      - CHAT_ID_2
-      - CHAT_ID_3
+      - 123456789
     
 #notify:
 #  - name: talTel
