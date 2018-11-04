@@ -88,7 +88,6 @@ sun:
 
 cloud:
 
-  `
 zwave:
   usb_path: /dev/ttyACM0
   
