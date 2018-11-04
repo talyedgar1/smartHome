@@ -93,7 +93,7 @@ zwave:
   usb_path: /dev/ttyACM0
   
 vera:
-  vera_controller_url: http://10.100.102.200:3480/
+  vera_controller_url: http://10.100.102.200:3480
   
 # prometheus:
 
